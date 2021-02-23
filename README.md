@@ -31,7 +31,8 @@
 
 ### ruby(rbenv) 설치 실행시 에러 발생한 경우
 ~~~
-> sudo gem update --system
+> brew update && brew upgrade
+> brew install rbenv ruby-build
 > brew uninstall binutils
 > rbenv install 2.6.6 && rbenv local 2.6.6 ;
 > vim ~/.zshrc
