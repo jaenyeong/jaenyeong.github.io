@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "코딩하는 재냥이"
 title_separator          : "-"
 subtitle                 : "Talk is cheap. Show me the code!" # site tagline that appears below site title in masthead
-name                     : "Jaenyeong.dev"
+name                     : "jaenyeong.dev@gmail.com"
 description              : "Source Code AWS Java Spring SpringBoot Algorithm Data Structure Architecture Design Pattern OOP FP Git"
 url                      : "https://jaenyeong.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
