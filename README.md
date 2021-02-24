@@ -54,3 +54,5 @@
   * https://honbabzone.com/jekyll/start-gitHubBlog/
 * jekyll Minimal-Mistakes 테마 구조
   * https://ansohxxn.github.io/blog/jekyll-directory-structure/
+* ruby(rbenv) 설치 실행시 에러 발생한 경우
+  * https://stackoverflow.com/questions/59483699/ruby-2-6-0-installation-fails-on-macos-with-rbenv
