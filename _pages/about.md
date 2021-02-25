@@ -2,7 +2,7 @@
 layout: single
 permalink: /about/
 date: 2021-02-25
-title: "엔지니어의 길을 걷고 싶은 개발자"
+title: "사람들을 위한 서비스를 만드는 날까지"
 description: "About Me Resume CV"
 subject: blog
 toc_label: "about me"
@@ -10,8 +10,13 @@ toc_icon: "code"
 toc_sticky: true
 ---
 
+## Info
+* Name   : 김재녕
+* e-mail : jaenyeong.dev@gmail.com
+* Github : [github.com/jaenyeong](https://github.com/jaenyeong)
+
 ## Introduce
-안녕하세요. 5년 차 백엔드 엔지니어 김재녕입니다.  
+안녕하세요. 5년 차 백엔드 개발자 김재녕입니다.  
 저는 ***Java, Spring Boot, AWS***를 주축으로 학습, 훈련하며 개발을 해왔습니다.  
 주로 웹 서비스를 개발 및 운영해왔으며  
 클래스, DB 설계부터 인프라 구축, 개발, 테스트, 배포, 운영까지의 ***모든 프로세스를 직접 경험***해보았습니다.  
@@ -128,7 +133,7 @@ ADOP (2018.09 ~ 2019.01) 5개월간
 > * 사용 : ***Java, Spring Boot, AWS(EC2, S3, RDS-Aurora)***
 
 ### ***ADOP (2018.09 ~ 2019.09)***
-> * 사내 AWS 사용 서비스 및 비용 관리, 최적화
+> * 사내 AWS 사용 인스턴스 및 비용 관리, 최적화
 > * 광고 수익 정산 비용 관리 서비스 운영
 > * 국내, 해외 고객사의 홈페이지를 AMP페이지 데이터로 변환하는 모듈 구현
 > * 사내 인사 시스템 운영
