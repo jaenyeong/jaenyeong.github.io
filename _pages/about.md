@@ -409,7 +409,7 @@ Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 > * AWS를 사용하여 안정적인 서비스 배포와 운영 방법 학습
 
 > **참조**
-> * 수강생 모집시 약 200명 지원, 수강생 약 50명 선발
+> * 수강생 모집시 약 200명 지원, 수강생 약 40명 선발
 > * 수강생 중 우수 수료생(20명)으로 최종 수료 (Next Step 멤버십 참여)
 > * [지하철 노선도 서비스 미션 링크](https://github.com/jaenyeong/atdd-subway-service)
 > * [인수테스트 미션 링크](https://github.com/jaenyeong/atdd-subway-admin)
