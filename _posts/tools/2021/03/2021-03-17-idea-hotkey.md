@@ -13,6 +13,26 @@ tags:
 
 # IntelliJ IDEA DEFAULT KEY MAP
 
+| Key | Function     |
+|:---:|--------------|
+|  ⌘  | Command      |
+|  ⌥  | Option       |
+|  ⌃  | Control      |
+|  ↩  | Enter        |
+|  ⇥  | Tab          |
+|  ⌫  | Back Space   |
+|  ⌦  | Delete       |
+|  ⇧  | Shift        |
+|  ⇪  | Caps lock    |
+|  ↑  | Up arrow     |
+|  ↓  | Down arrow   |
+|  §  | Section sign |
+|  ↖  | Home         |
+|  ↘  | Down         |
+|  ⇞  | Page Up      |
+|  ⇟  | Page Down    |
+|  ⏏  | Eject        |
+
 ## 기본 키맵
 
 ### 일반
