@@ -39,6 +39,20 @@ tags:
 |  ⇪  | Caps lock    |
 |  ⏏  | Eject        |
 
+## Remember these Shortcut
+
+| Action                                |  Mac OS   | ⊞ Windows             |
+|---------------------------------------|------------|-----------------------|
+| 스마트 코드 완성                      | ⌃ ⇧ Space  | Ctrl + Shift + Space  |
+| 어디서나 검색                         | Double ⇧   | Double Shift          |
+| 의도적인 동작 및 빠른 수정 사항 표시  | ⌘ ↩        | Alt + Enter           |
+| 코드 생성                             | ⌘ N, ⌃ ↩   | Alt + Ins             |
+| 매개변수 정보                         | ⌘ P        | Ctrl + P              |
+| 선택의 폭 확장                        | ⌥ ⌘ ↑      | Ctrl + W              |
+| 선택의 폭 축소                        | ⌥ ⌘ ↓      | Ctrl + Shift + W      |
+| 최근 파일 팝업                        | ⌘ E        | Ctrl + E              |
+| 이름 재지정                           | ⇧ F6       | Shift + F6            |
+
 ## 기본 키맵
 
 ### 일반
