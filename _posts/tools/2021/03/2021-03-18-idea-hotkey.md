@@ -13,6 +13,8 @@ tags:
 
 # IntelliJ IDEA DEFAULT KEY MAP
 
+## 단축키
+
 | Key | Function     |
 |:---:|--------------|
 |  ⌘  | Command      |
