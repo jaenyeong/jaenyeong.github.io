@@ -18,21 +18,24 @@ tags:
 | Key | Function     |
 |:---:|--------------|
 |  ⌘  | Command      |
+|  ⇧  | Shift        |
 |  ⌥  | Option       |
 |  ⌃  | Control      |
-|  ↩  | Enter        |
-|  ⇥  | Tab          |
+|  ↩  | Return       |
 |  ⌫  | Back Space   |
 |  ⌦  | Delete       |
-|  ⇧  | Shift        |
-|  ⇪  | Caps lock    |
 |  ↑  | Up arrow     |
 |  ↓  | Down arrow   |
-|  §  | Section sign |
-|  ↖  | Home         |
-|  ↘  | Down         |
+|  ←  | Left arrow   |
+|  →  | Right arrow  |
 |  ⇞  | Page Up      |
 |  ⇟  | Page Down    |
+|  ↖  | Home         |
+|  ↘  | Down         |
+|  ⇥  | Right Tab    |
+|  ⎋  | Escape       |
+|  §  | Section sign |
+|  ⇪  | Caps lock    |
 |  ⏏  | Eject        |
 
 ## 기본 키맵
