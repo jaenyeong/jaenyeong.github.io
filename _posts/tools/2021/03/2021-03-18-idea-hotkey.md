@@ -1,14 +1,12 @@
 ---
-layout: single
-date: 2021-03-18
-title : IntelliJ IDEA HotKey
-description: "IntelliJ IDEA HotKey Shortcut"
+layout: single date: 2021-03-18 title : IntelliJ IDEA HotKey description: "IntelliJ IDEA HotKey Shortcut"
 categories:
-  - tools
-tags: 
-  - IntelliJ
-  - IDEA
-  - HotKey
+
+- tools tags:
+- IntelliJ
+- IDEA
+- HotKey
+
 ---
 
 # IntelliJ IDEA DEFAULT KEY MAP
@@ -195,7 +193,14 @@ tags:
 | 사용량 표시                       | ⌘ ⌥ F7       | Ctrl + Alt + F7       |
 
 ### VCS / 로컬 기록
-* TODO
+
+| Action                       |  Mac OS | ⊞ Windows            |
+|------------------------------|----------|----------------------|
+| 프로젝트를 VCS로 커밋        | ⌘ K      | Ctrl + K             |
+| 프로젝트를 VCS에서 업데이트  | ⌘ T      | Ctrl + T             |
+| 커밋 푸시                    | ⌘ ⇧ K    | Ctrl + Shift + K     |
+| `VCS` 빠른 팝업              | ^ V      | Alt + BackQuote (`)  |
 
 ### 실시간 템플릿
+
 * TODO
