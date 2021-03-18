@@ -224,3 +224,11 @@ tags:
 |---------------------------|----------|-----------------|
 | 실시간 템플릿으로 감싸기  | ⌘ ⌥ J    | Ctrl + Alt + J  |
 | 실시간 템플릿 삽입        | ⌘ J      | Ctrl + J        |
+
+## KeyMap for Mac
+
+![KeyMap for Mac]({{site.url}}/assets/images/tools/2021/03/keymap-mac.jpeg)
+
+## KeyMap for Windows
+
+![KeyMap for Mac]({{site.url}}/assets/images/tools/2021/03/keymap-windows.jpeg)
