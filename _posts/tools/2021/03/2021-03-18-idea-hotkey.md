@@ -1,6 +1,6 @@
 ---
 layout: single
-date: 2021-03-17
+date: 2021-03-18
 title : IntelliJ IDEA HotKey
 description: "IntelliJ IDEA HotKey Shortcut"
 categories:
@@ -120,7 +120,21 @@ tags:
 | 활성 에디터 탭 닫기                         | ⌘ W             | Ctrl + F4                |
 
 ### 리팩터링
-* TODO
+
+| Action        |  Mac OS        | ⊞ Windows               |
+|---------------|-----------------|-------------------------|
+| 복사          | F5              | F5                      |
+| 이동          | F6              | F6                      |
+| 안전 삭제     | ⌘ Delete        | Alt + Delete            |
+| 이름 재지정   | ⇧ F6            | Shift + F6              |
+| 리팩터링하기  | ^ T             | Ctrl + Alt + Shift + T  |
+| 서명 변경     | ⌘ F6            | Ctrl + F6               |
+| 인라인        | ⌘ ⌥ N           | Ctrl + Alt + N          |
+| 메서드 추출   | ⌘ ⌥ M           | Ctrl + Alt + M          |
+| 변수 추출     | ⌘ ⌥ V           | Ctrl + Alt + V          |
+| 필드 추출     | ⌘ ⌥ F           | Ctrl + Alt + F          |
+| 상수 추출     | ⌘ ⌥ C           | Ctrl + Alt + C          |
+| 매개변수 추출 | ⌘ ⌥ P           | Ctrl + Alt + P          |
 
 ### 탐색
 * TODO
