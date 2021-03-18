@@ -1,11 +1,14 @@
 ---
-layout: single date: 2021-03-18 title : IntelliJ IDEA HotKey description: "IntelliJ IDEA HotKey Shortcut"
+layout: single
+date: 2021-03-18
+title : IntelliJ IDEA HotKey
+description: "IntelliJ IDEA HotKey Shortcut"
 categories:
-
-- tools tags:
-- IntelliJ
-- IDEA
-- HotKey
+  - tools
+tags:
+  - IntelliJ
+  - IDEA
+  - HotKey
 
 ---
 
@@ -203,4 +206,7 @@ categories:
 
 ### 실시간 템플릿
 
-* TODO
+| Action                    |  Mac OS | ⊞ Windows       |
+|---------------------------|----------|-----------------|
+| 실시간 템플릿으로 감싸기  | ⌘ ⌥ J    | Ctrl + Alt + J  |
+| 실시간 템플릿 삽입        | ⌘ J      | Ctrl + J        |
