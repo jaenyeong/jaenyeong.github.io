@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2021-03-22
+date: 2021-03-23
 title: "엔지니어를 향해 걷는 개발자"
 description: "About Me Resume CV"
 subject: blog
@@ -434,34 +434,35 @@ Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 
 > **참조**
 > * 수강생 모집시 약 200명 지원, 수강생 약 40명 선발
-> * 수강생 중 우수 수료생(20명)으로 최종 수료 (Next Step 멤버십 가입)
+> * 수강생 중 우수 수료생(20명)으로 최종 수료
+>   * Next Step 멤버십 : 이력서, 기술면접 멘토링 교육
 > * [ATDD-Subway-service (지하철 노선도 서비스)](https://github.com/jaenyeong/atdd-subway-service)
->   * [Step 1 Pull request](https://github.com/next-step/atdd-subway-service/pull/10)
->   * [Step 2 Pull request](https://github.com/next-step/atdd-subway-service/pull/21)
->   * [Step 3 Pull request](https://github.com/next-step/atdd-subway-service/pull/40)
->   * [Step 4 Pull request](https://github.com/next-step/atdd-subway-service/pull/64)
+>   * [Step 1 feedback](https://github.com/next-step/atdd-subway-service/pull/10)
+>   * [Step 2 feedback](https://github.com/next-step/atdd-subway-service/pull/21)
+>   * [Step 3 feedback](https://github.com/next-step/atdd-subway-service/pull/40)
+>   * [Step 4 feedback](https://github.com/next-step/atdd-subway-service/pull/64)
 > * [ATDD-Subway-admin (지하철 노선도 서비스)](https://github.com/jaenyeong/atdd-subway-admin)
->   * [Step 1 Pull request](https://github.com/next-step/atdd-subway-admin/pull/22)
->   * [Step 2 Pull request](https://github.com/next-step/atdd-subway-admin/pull/43)
->   * [Step 3 Pull request](https://github.com/next-step/atdd-subway-admin/pull/58)
->   * [Step 4 Pull request](https://github.com/next-step/atdd-subway-admin/pull/63)
+>   * [Step 1 feedback](https://github.com/next-step/atdd-subway-admin/pull/22)
+>   * [Step 2 feedback](https://github.com/next-step/atdd-subway-admin/pull/43)
+>   * [Step 3 feedback](https://github.com/next-step/atdd-subway-admin/pull/58)
+>   * [Step 4 feedback](https://github.com/next-step/atdd-subway-admin/pull/63)
 > * [JPA 활용](https://github.com/jaenyeong/jwp-jpa)
->   * [Step 1 Pull request](https://github.com/next-step/jwp-refactoring/pull/9)
->   * [Step 2 Pull request](https://github.com/next-step/jwp-refactoring/pull/35)
->   * [Step 3 Pull request](https://github.com/next-step/jwp-refactoring/pull/45)
->   * [Step 4 Pull request](https://github.com/next-step/jwp-refactoring/pull/54)
+>   * [Step 1 feedback](https://github.com/next-step/jwp-refactoring/pull/9)
+>   * [Step 2 feedback](https://github.com/next-step/jwp-refactoring/pull/35)
+>   * [Step 3 feedback](https://github.com/next-step/jwp-refactoring/pull/45)
+>   * [Step 4 feedback](https://github.com/next-step/jwp-refactoring/pull/54)
 > * [Lotto](https://github.com/jaenyeong/java-lotto)
->   * [문자열 계산기 Pull request](https://github.com/next-step/java-lotto/pull/1051)
->   * [Step 1 Pull request](https://github.com/next-step/java-lotto/pull/1096)
->   * [Step 2 Pull request](https://github.com/next-step/java-lotto/pull/1115)
->   * [Step 3 Pull request](https://github.com/next-step/java-lotto/pull/1124)
->   * [Step 4 Pull request](https://github.com/next-step/java-lotto/pull/1133)
+>   * [문자열 계산기 feedback](https://github.com/next-step/java-lotto/pull/1051)
+>   * [Step 1 feedback](https://github.com/next-step/java-lotto/pull/1096)
+>   * [Step 2 feedback](https://github.com/next-step/java-lotto/pull/1115)
+>   * [Step 3 feedback](https://github.com/next-step/java-lotto/pull/1124)
+>   * [Step 4 feedback](https://github.com/next-step/java-lotto/pull/1133)
 > * [Racing Car](https://github.com/jaenyeong/java-racingcar)
->   * [Learning Test Pull request](https://github.com/next-step/java-racingcar/pull/1568)
->   * [문자열 사칙 연산 계산기 Pull request](https://github.com/next-step/java-racingcar/pull/1617)
->   * [Step 1 Pull request](https://github.com/next-step/java-racingcar/pull/1677)
->   * [Step 2 Pull request](https://github.com/next-step/java-racingcar/pull/1719)
->   * [Step 3 Pull request](https://github.com/next-step/java-racingcar/pull/1731)
+>   * [Learning Test feedback](https://github.com/next-step/java-racingcar/pull/1568)
+>   * [문자열 사칙 연산 계산기 feedback](https://github.com/next-step/java-racingcar/pull/1617)
+>   * [Step 1 feedback](https://github.com/next-step/java-racingcar/pull/1677)
+>   * [Step 2 feedback](https://github.com/next-step/java-racingcar/pull/1719)
+>   * [Step 3 feedback](https://github.com/next-step/java-racingcar/pull/1731)
 
 ---
 
@@ -584,10 +585,10 @@ Fastcampus (2017.10 ~ 2017.11)
 
 ## License
 
-|     일자     |    자격증명    |      발급 기관     |
-|:-----------:|:-----------:|:----------------:|
-| 2018.07.10  | SQLD        | 한국 데이터 진흥원    |
-| 2016.11.21  | 정보 처리 기사  | 한국 산업 인력 공단   |
+|    일자    |    자격증명    |      발급 기관      |
+|:----------:|:--------------:|:-------------------:|
+| 2018.07.10 | SQLD           | 한국 데이터 진흥원  |
+| 2016.11.21 | 정보 처리 기사 | 한국 산업 인력 공단 |
 
 ---
 
