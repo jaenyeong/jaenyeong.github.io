@@ -39,14 +39,14 @@ layout: default
                 </h1>
                 {% endif %}
                 <!-- 예상 소요 시간 주석 처리 -->
-                <!--                {% include page__meta.html %}-->
+<!--                {% include page__meta.html %}-->
 
-                <!-- post modified date -->
-                <p class="page__date">
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
-                    {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}
-                    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-                </p>
+                <!-- 게시물 최종 변경 일자 -->
+<!--                <p class="page__date">-->
+<!--                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>-->
+<!--                    {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}-->
+<!--                    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>-->
+<!--                </p>-->
             </header>
             {% endunless %}
 

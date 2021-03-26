@@ -42,7 +42,14 @@
 > source ~/.zshrc
 ~~~
 
-### 참조
+## 설정
+
+### 게시물 변경 일자 설정
+* include page__meta.html 주석 처리
+* _includes/archive-single.html 파일에 post.date 추가
+* _layouts/single.html 파일에 page.date 추가
+
+## 참조
 * jekyll 문서
   * https://jekyllrb.com/
 * Minimal-Mistakes 테마 문서
