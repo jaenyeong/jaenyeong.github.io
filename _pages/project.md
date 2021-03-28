@@ -34,13 +34,13 @@ toc_sticky: true
 >   * Bootpay API를 활용하여 상품 결제, 취소 기능 개발
 >   * FireStore를 활용하여 채팅 기능 API 개발
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발
->   * Junit5를 사용하여 구현 기능 테스트 코드 작성
+>   * JUnit5를 사용하여 구현 기능 테스트 코드 작성
 >   * Spring Boot 초기 설정
 > * DB 스키마 설계
 > * AWS 인프라 구축, 운영(비용 관리)
 > 
 > **개발 환경**
-> * Java(Spring Boot), MyBatis, Gradle, Junit
+> * Java(Spring Boot), MyBatis, Gradle, JUnit
 > * AWS(EC2, RDS-Aurora)
 > * Bootpay API, FireStore
 > * Intellij IDEA
@@ -108,14 +108,13 @@ toc_sticky: true
 (2018.09 ~ 2019.01) 5개월
 
 > **설명**
-> * AMP 변환 모듈 개발, AMP 서버 운영 (광고 삽입)
+> * AMP 변환 모듈 개발, AMP 서버 운영 (광고 삽입하여 수익 창출)
 > * AMP는 일반 페이지보다 빠른 속도로 로딩(렌더링)되어 모바일에 적합함
 >
 > **담당 업무**
 > * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 모듈 개발
->   * Jsoup를 통해 매체의 RSS 데이터 크롤링 구현
->   * 리눅스 crontab으로 특정 시간마다 해당 모듈을 반복 실행
->   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용, 배포 자동화 구현
+>   * Jsoup를 사용하여 크롤링 구현, 리눅스 crontab으로 해당 모듈을 반복 실행
+>   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용, 배포 자동화
 > * AMP의 SEO(Search Engine Optimization)를 위해 구글 SEO 가이드 적용, 문서화
 > * AMP 퍼블리싱 서버 유지보수, 운영
 >   * 매체별 규격에 맞춰 AMP 유효성 확인, AMP(+AMP Story) 템플릿 수정
