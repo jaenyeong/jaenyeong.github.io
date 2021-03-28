@@ -164,13 +164,13 @@ ADOP (2019.02 ~ 2019.03) 2개월
 
 ---
 
-### AMP (Accelerated Mobile Pages) 서비스 개발
+### AMP 변환 서비스 개발
 ADOP (2018.09 ~ 2019.01) 5개월
 * Java(Spring Boot), MyBatis, Gradle, PHP(CI), AWS(EC2, RDS-Aurora), Bitbucket, Jenkins
 
 > **설명**
-> * AMP 변환 모듈 개발, AMP 서버 운영 (광고 삽입하여 수익 창출)
-> * AMP는 일반 페이지보다 빠른 속도로 로딩(렌더링)되어 모바일에 적합함
+> * AMP(Accelerated Mobile Pages)는 일반 페이지보다 빠른 속도로 렌더링 되는 페이지
+> * 변환 모듈 개발, AMP 서버 유지보수 (광고 삽입하여 수익 창출)
 
 > **담당 업무**
 > * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 모듈 개발
