@@ -98,7 +98,8 @@ toc_sticky: true
 > * REST API 서버 개발
 >   * Bootpay API를 활용하여 상품 결제, 취소 기능 개발
 >   * FireStore를 활용하여 채팅 기능 API 개발
->   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 JUnit5를 사용하여 테스트 코드 작성
+>   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발
+>   * JUnit5를 사용하여 각 기능의 테스트 코드 작성
 >   * Spring Boot 초기 설정
 > * DB 스키마 설계
 > * AWS 인프라 구축, 운영(비용 관리)
