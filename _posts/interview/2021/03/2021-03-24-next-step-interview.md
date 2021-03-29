@@ -1,8 +1,8 @@
 ---
 layout: single
 date: 2021-03-24
-title : Next Step Interview Questions
-description: "NextStep Developer & Engineer Interview Questions"
+title : Next Step 기술 면접 예상 질문
+description: "NextStep Developer & Engineer Interview Questions 기술 면접 예상 질문"
 categories:
   - Interview
 tags:
