@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /about
+permalink: /about/
 date: 2021-03-28
 title: "엔지니어를 향해 걷는 개발자"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience"

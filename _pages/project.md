@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /projects
+permalink: /projects/
 date: 2021-03-27
 title: "지금까지 수행한 모든 프로젝트"
 description: "Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience"

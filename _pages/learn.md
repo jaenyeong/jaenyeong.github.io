@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /learns
+permalink: /learns/
 date: 2021-03-27
 title: "지금까지 수강한 모든 교육"
 description: "Engineer Programmer Developer Resume CV Curriculum Vitae Skill Learn Lectures"
