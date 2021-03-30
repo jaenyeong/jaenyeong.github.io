@@ -225,8 +225,8 @@ tags:
 
 ## KeyMap for Mac
 
-![KeyMap for Mac]({{site.url}}/assets/images/tools/2021/03/keymap-mac.jpeg)
+![KeyMap for Mac]({{site.url}}/assets/images/tool/2021/03/keymap-mac.jpeg)
 
 ## KeyMap for Windows
 
-![KeyMap for Mac]({{site.url}}/assets/images/tools/2021/03/keymap-windows.jpeg)
+![KeyMap for Mac]({{site.url}}/assets/images/tool/2021/03/keymap-windows.jpeg)
