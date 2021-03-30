@@ -88,7 +88,7 @@ toc_sticky: true
 
 ### 공간기록 (가구 인테리어 디자인 플랫폼) 개발
 스페이스컬쳐 (2019.09 ~ 2020.01) 5개월
-* Java(Spring Boot), MyBatis, Gradle, JUnit, AWS(EC2, RDS-Aurora), Bootpay API, FireStore
+* Java(Spring Boot), MyBatis, Gradle, JUnit, AWS(EC2, RDS-Aurora), Bitbucket, Bootpay API, FireStore
 
 > **설명**
 > * 오늘의집 앱을 벤치마킹한 실내 인테리어 제품 거래(e-commerce) 서비스 개발
@@ -96,7 +96,7 @@ toc_sticky: true
  
 > **담당 업무**
 > * REST API 서버 개발
->   * Bootpay API를 활용하여 상품 결제, 취소 기능 개발
+>   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
 >   * FireStore를 활용하여 채팅 기능 API 개발
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발
 >   * JUnit5를 사용하여 각 기능의 테스트 코드 작성

@@ -42,8 +42,8 @@ toc_sticky: true
 > **개발 환경**
 > * Java(Spring Boot), MyBatis, Gradle, JUnit
 > * AWS(EC2, RDS-Aurora)
+> * Bitbucket
 > * Bootpay API, FireStore
-> * Intellij IDEA
 
 ---
 
