@@ -1,7 +1,7 @@
 ---
 layout: single
-date: 2021-03-18
-title : IntelliJ IDEA 단축키 모음
+date: 2021-03-30
+title : "[IntelliJ IDEA] 단축키 모음"
 description: "IntelliJ IDEA HotKey Shortcut 인텔리제이 단축키 모음"
 categories:
   - tools
