@@ -106,7 +106,7 @@ toc_sticky: true
 
 ---
 
-### Insight (사내 광고 수익 정산 서비스) 유지보수
+### Insight (광고 수익 정산 서비스) 유지보수
 ADOP (2019.04 ~ 2019.07) 4개월
 * Java(Spring Boot), MyBatis, Gradle, JavaScript(jQuery), AWS(EC2, RDS-Aurora, ACM), Bitbucket, Jenkins
 
