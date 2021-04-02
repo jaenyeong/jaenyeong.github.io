@@ -18,25 +18,23 @@ toc_sticky: true
 ---
 
 ## Introduce
-안녕하세요. 5년 차 백엔드 개발자 김재녕입니다.  
-저는 **Java, Spring Boot, AWS**를 주축으로 학습, 훈련하며 개발 업무를 수행해 왔습니다.
-작은 모듈, 신규 프로젝트를 직접 구축하며 클래스, DB 설계부터 인프라 구축, 개발, 테스트, 배포(자동화)까지 개발 프로세스 전반에 대한 경험이 있습니다.
-또한, 다양한 언어와 플랫폼 환경에서 개발, 유지보수 경험이 있어 웬만한 **낯선 기술 환경에도 개의치 않는 편**입니다.
+안녕하세요. **Java, Spring Boot, AWS**를 주력으로 개발해온 5년 차 백엔드 개발자 김재녕입니다.  
+SI, 스타트업을 가리지 않고 개발자로서 다양한 경험을 쌓아왔습니다.
+스타트업에서 프로젝트를 직접 설계, 개발, 테스트, 배포까지 개발 프로세스 전반을 경험하며 **나무보다 숲을 볼 수 있는 시야**를 갖게 되었습니다.
+또한 SI에서 대규모 시스템 개발 프로젝트에서 현장 통합 테스트 경험을 통해 화려한 스킬보다는 **안정적인 서비스**의 가치를 배웠습니다.
+이외에도 다양한 개발 환경에서의 경험으로 웬만큼 낯선 기술 환경도 꺼리지 않게 되었습니다.
 
-최신 기술의 활용도 중요하지만, 사용자 편의를 위한 **안정적인 서비스를 지향**합니다.
-따라서 유연하면서 안정성과 확장성 있는 리액티브 시스템을 위한 인프라 구축, 아키텍처 설계에 관심이 있습니다.
-또한 안정적인 서비스를 받쳐 줄 기초 지식을 중요하게 생각하기 때문에 다양한 강의를 수강하면서 학습 내용(코드)을 깃허브에 업로드하고 있습니다.
-이를 기반으로 Spring Boot, 테스트 코드를 기반한 기능 구현 등과 같은 수강 내용을 **프로젝트에 적용해보며** 서비스를 구축한 경험이 있습니다.
+개인적으로 무언가를 배우며 적용해 보는 것을 굉장히 좋아합니다. 그래서 시간이 날 때마다 다양한 강의를 수강하며 업무에 적용하고 있습니다.
 
 ---
 
 ## Skill
-* **Language** : **Java**
-* **Framework** : **Spring Boot**, MyBatis, JUnit
+* **Language** : Java
+* **Framework** : Spring Boot, MyBatis, JUnit
 * **Database** : MySQL
-* **Cloud** : AWS (EC2, RDS-Aurora, S3, IAM)
-* **Tool** : Intellij IDEA
-* **Etc** : Gradle, Git(GitHub), SEO(Search Engine Optimization)
+* **Cloud** : AWS (EC2, RDS-Aurora, S3)
+* **Tool** : IntelliJ IDEA
+* **Etc** : Gradle, Git(GitHub), Jenkins
 
 ---
 
@@ -166,7 +164,7 @@ ADOP (2019.02 ~ 2019.03) 2개월
 
 ### AMP 변환 서비스 개발
 ADOP (2018.09 ~ 2019.01) 5개월
-* Java(Spring Boot), MyBatis, Gradle, PHP(CI), AWS(EC2, RDS-Aurora), Bitbucket, Jenkins
+* Java(Jsoup), MyBatis, Gradle, PHP(CI), JavaScript(Vue.js), AWS(EC2, RDS-Aurora), Bitbucket, Jenkins
 
 > **설명**
 > * AMP(Accelerated Mobile Pages)는 일반 페이지보다 빠른 속도로 렌더링 되는 페이지
@@ -176,11 +174,10 @@ ADOP (2018.09 ~ 2019.01) 5개월
 > * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 모듈 개발
 >   * Jsoup를 사용하여 크롤링 구현, 리눅스 crontab으로 해당 모듈을 반복 실행
 >   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용, 배포 자동화
-> * AMP의 SEO(Search Engine Optimization)를 위해 구글 SEO 가이드 적용, 문서화
+> * AMP의 구글 SEO(Search Engine Optimization) 가이드 적용, 문서화
 > * AMP 퍼블리싱 서버 유지보수, 운영
 >   * 매체별 규격에 맞춰 AMP 유효성 확인, AMP(+AMP Story) 템플릿 수정
 >   * 각 페이지 CDN(AWS CloudFront) 적용
->   * Vue.js 상용 버전을 라이브러리 형태로 임포트, 데이터 핸들링(렌더링)
 
 > **문제 해결 사례**
 > * 구현한 스크래핑 모듈과 비슷한 모듈이 기존에 다수 존재하는 것을 개발 후에 알게됨
@@ -241,11 +238,11 @@ Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 >   * TDD(클린코드, 리팩터링), ATDD, JPA, AWS 전반 내용 학습
 >   * 각 미션마다 리뷰어의 코드리뷰를 통해 코칭
 > * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
->   * Next Step 멤버십 : 이력서, 기술면접 멘토링 교육
+>   * Next Step 멤버십을 통해 이력서, 기술면접 멘토링 교육 수강
 > * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
 > * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
 > * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
-> * [JPA 활용](https://github.com/jaenyeong/jwp-jpa)
+> * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
 > * [Lotto](https://github.com/jaenyeong/java-lotto)
 > * [Racing Car](https://github.com/jaenyeong/java-racingcar)
 
@@ -286,10 +283,10 @@ Fastcampus (2018.07 ~ 2018.09)
 
 ## License
 
-| 일자       | 자격증명       | 발급 기관           |
-|:----------:|:--------------:|:-------------------:|
-| 2018.07.10 | SQLD           | 한국 데이터 진흥원  |
-| 2016.11.21 | 정보 처리 기사 | 한국 산업 인력 공단 |
+| 일자       | 자격증명       | 발급 기관                |
+|:----------:|:--------------:|:------------------------:|
+| 2018.07.10 | SQLD           | 한국 데이터 산업 진흥원  |
+| 2016.11.21 | 정보 처리 기사 | 한국 산업 인력 공단      |
 
 ## Education
 * [2020.03 ~ 2020.08] 국가평생진흥교육원 컴퓨터 공학과
