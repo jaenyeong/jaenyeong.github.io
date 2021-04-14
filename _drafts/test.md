@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title : 첫번째 테스트 포스트
+title : "첫번째 테스트 포스트"
 description: "작성 양식"
 subject: blog
 excerpt:
@@ -9,7 +9,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "code"
 toc_sticky: true
-date: 2021-02-23
+date: 2021-04-14
 categories:
   - etc
 tags:
@@ -29,6 +29,8 @@ tags:
 
 ## 카테고리
 * algorithm
+* api
+* architecture
 * book
 * database
 * design
@@ -38,6 +40,9 @@ tags:
 * network
 * os
 * resolution
+* resume
 * seminar
+* system
 * tool
+* troubleshooting
 * workshop
