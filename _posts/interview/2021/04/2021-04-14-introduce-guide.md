@@ -1,7 +1,7 @@
 ---
 layout: single
-date: 2021-04-06
-title : "[자기 소개] 개발자가 기술 면접에서 자기 소개하기"
+date: 2021-04-14
+title : "[자기 소개 가이드] 개발자가 기술 면접에서 자기 소개하기"
 description: "Engineer Programmer Developer Interview Introduce 엔지니어 프로그래머 개발자 자기 소개 면접"
 categories:
   - Interview
