@@ -32,6 +32,7 @@ tags:
 * api
 * architecture
 * book
+* cloud
 * database
 * design
 * framework
