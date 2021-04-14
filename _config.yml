@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Better late than never."
+title                    : "Better late than never"
 title_separator          : "-"
 subtitle                 : "Faith makes all things possible." # site tagline that appears below site title in masthead
 name                     : "jaenyeong.dev@gmail.com"
