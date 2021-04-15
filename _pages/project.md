@@ -1,9 +1,9 @@
 ---
 layout: single
 permalink: /projects/
-date: 2021-03-27
+date: 2021-04-16
 title: "지금까지 수행한 모든 프로젝트"
-description: "Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience"
+description: ""
 subject: blog
 toc_label: "All Projects"
 toc_icon: "laptop-code"
@@ -26,21 +26,16 @@ toc_sticky: true
 (2019.09 ~ 2020.01) 5개월
 
 > **설명**
-> * 오늘의집 앱을 벤치마킹한 가구 제품 거래(e-commerce) 서비스 개발
+> * 오늘의집 앱을 벤치마킹한 가구 제품 거래 서비스 개발
 > * 인테리어 디자이너가 고객에게 인테리어를 제안하며 제품을 추천하는 플랫폼
 >
 > **담당 업무**
-> * REST API 서버 개발
+> * TDD를 활용해 REST API 서버 개발
 >   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
 >   * FireStore를 활용하여 채팅 기능 API 개발
->   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발
->   * Spring HATEOAS로 상태 전이 링크 적용
->   * Spring Boot 초기 설정
->     * 결제 정보, 요청 트래픽별 로그 파일 생성(Rolling File) 설정
-> * DDD를 통해 도메인 용어와 사용 시나리오 등 정의, 서버 구조 리팩터링
->   * 서비스 레이어의 비즈니스 로직을 도메인 레이어로 이동
->   * JUnit5를 사용하여 도메인별 단위 테스트 작성을 통해 안전하게 리팩터링
-> * 각 제품 이미지 CDN(AWS CloudFront) 적용
+>   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
+>   * DDD를 기반으로 서버 구조 리팩터링
+> * Spring Boot Log, DB 등 초기 설정
 > * DB 스키마 설계
 > * AWS 인프라 구축, 운영(비용 관리)
 > 
@@ -62,7 +57,6 @@ toc_sticky: true
 > 
 > **담당 업무**
 > * AWS S3 SDK를 활용하여 전자 결재 시 영수증 파일 업로드 기능 수정
->   * AWS NACL 설정
 > * 직원별 연차에 따라 휴가 일수를 다르게 처리하는 기능 버그 수정
 > 
 > **개발 환경**
@@ -75,14 +69,15 @@ toc_sticky: true
 
 > **설명**
 > * 광고 수익 정산 관리를 위한 사내 서비스 유지보수, 운영
-> 
+>
 > **담당 업무**
 > * 신규 기능 추가, 기존 기능 버그 수정
 >   * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
->   * 정산 시 이월, 지급일 변경, 메일 전송 등 기능 유지보수
->   * 기능별 중복 코드 리팩터링, 구조 개선
+>   * 정산 이월, 지급일 변경, 메일 전송 등 기능 유지보수
+>   * 광고 수익 데이터 파일 업로드 기능 구현
+>   * 기능별 중복 코드 리팩터링, 구조 개선과 쿼리 튜닝
+>   * 그 외 운영팀의 사용 편의성을 위한 추가 요구사항 반영
 > * Bitbucket(web hook)과 Jenkins(execute shell), 리눅스 crontab을 통한 배포 자동화
-> * Apache POI(오피스 파일 변환 라이브러리) 활용하여 엑셀 업로드 기능 구현
 > 
 > **개발 환경**
 > * Java(Spring Boot), MyBatis, Gradle, JavaScript(jQuery)
@@ -99,14 +94,14 @@ toc_sticky: true
 >
 > **담당 업무**
 > * 사용되는 AWS 인스턴스 리소스를 AWS CloudWatch 콘솔을 통해 모니터링, 장애 대응
->   * 요청 트래픽 부하시 설정된 스케일링 그룹 AZ에 남은 자원이 부족한 경우 발생
->   * AMI로 다른 AZ의 인스턴스 생성하여 직접 로드밸런서에 연결
-> * AWS 인스턴스 비용 관리 및 최적화
->   * 고정적으로 사용하는 온디맨스 인스턴스를 예약 인스턴스로 변경
->   * 비효율적인 인스턴스 유형을 사용하는 경우 변경 (일반적으로 M5.large 사용)
->   * 사용하지 않는 인스턴스 삭제 처리
+>   * 특정 서비스의 트래픽 부하로 스케일링 그룹 AZ의 리소스 부족으로 스케일 아웃 실패
+>   * AMI로 다른 AZ의 인스턴스 직접 생성하여 로드밸런서에 연결하여 대응
+> * 사용되지 않는 서비스 모듈 약 10개 정리
+> * 메가존 빌링 시스템을 사용하여 AWS 인스턴스 비용 관리 및 최적화
+>   * 사용되지 않는 AWS 리소스(EC2, EBS 등) 삭제하여 월 기준 약 30달러 절약
+>   * 인스턴스의 유형 변경 또는 예약 인스턴스 사용으로 비용 절감
 > * 비용 절감 목적으로 SpotInst(베스핀 기업의 스팟인스턴스 관리 서비스) 사용 테스트
->   * 해당 서비스의 불안정한 상태 때문에 실제 적용은 하지 못함
+>   * 해당 서비스의 불안정한 상태 때문에 적용 실패
 > 
 > **개발 환경**
 > * EC2(AMI, ELB, Auto Scaling), RDS(Aurora), CloudWatch, CloudFront, IAM
@@ -121,15 +116,14 @@ toc_sticky: true
 > * 변환 모듈 개발, AMP 서버 유지보수 (광고 삽입하여 수익 창출)
 >
 > **담당 업무**
-> * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 모듈 개발
->   * Jsoup를 사용하여 크롤링 구현, 리눅스 crontab으로 해당 모듈을 반복 실행
+> * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 배치 모듈 개발
+>   * Jsoup를 사용하여 크롤링 구현, 리눅스 crontab으로 반복 실행 처리
 >   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용, 배포 자동화
 > * 구글 SEO(Search Engine Optimization) 가이드 적용, 문서화
+>   * 구글 검색시 상단 노출, AMP별 요청 트래픽 발생으로 광고 수익 창출
 > * AMP 퍼블리싱 서버 유지보수, 운영
->   * Vue.js의 axios를 사용하여 데이터 송수신 처리
 >   * 매체별 규격에 맞춰 AMP 유효성 확인, AMP(+AMP Story) 템플릿 수정
->   * 각 기사 페이지 CDN(AWS CloudFront) 적용
->   * AWS RDS-Aurora character-set(utf8mb4) 설정하여 이모지 사용 가능하도록 변경
+>   * 각 기사 페이지 CDN(AWS CloudFront) 적용하여 렌더링 속도 개선
 > * 비슷한 유형의 크롤러 모듈 약 6개 병합, 소스 형상관리 및 배포 측면에서 관리 포인트 축소
 >   * 이로 인해 사용하지 않게된 AWS EC2 인스턴스 약 3개 삭제, 월 약 $200 절감 효과
 > 
@@ -171,7 +165,6 @@ toc_sticky: true
 >   * 채널, 시청 기록, 구독, 코멘트 등 각 화면 구현 및 데이터 핸들링(렌더링)
 > * REST API 서버 개발
 >   * 채널, 시청 기록, 구독, 코멘트 등 각 기능 CRUD API 구현
->   * 요청 트래픽 기준으로 로그 파일 생성(RollingFileAppender) 설정
 >   * ehCache 라이브러리를 사용하여 영상 데이터 캐싱 처리
 > * DB 스키마 설계
 > 
