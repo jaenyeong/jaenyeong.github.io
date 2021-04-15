@@ -1,6 +1,7 @@
 User-agent: *
-Allow: /
 Disallow: /_pages/introduce.md
 Disallow: /_pages/learn.md
 Disallow: /_pages/project.md
+Allow: /
+
 Sitemap: https://jaenyeong.github.io/sitemap.xml
