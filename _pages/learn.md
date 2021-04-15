@@ -1,9 +1,9 @@
 ---
 layout: single
 permalink: /learns/
-date: 2021-03-27
-title: "지금까지 수강한 모든 교육"
-description: "Engineer Programmer Developer Resume CV Curriculum Vitae Skill Learn Lectures"
+date: 2021-04-16
+title: "지금까지 수강한 모든 교육 이력"
+description: ""
 subject: blog
 toc_label: "All Lectures"
 toc_icon: "laptop-code"
@@ -16,7 +16,7 @@ toc_sticky: true
 Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 
 > * 일반 사용자가 사용하는 서비스 개발에 필요한 지식과 기술 학습
->   * TDD(클린코드, 리팩터링), ATDD, JPA, AWS 전반 내용 학습
+>   * TDD(클린코드, 리팩터링), ATDD, JPA, AWS 등 학습
 >   * 각 미션마다 리뷰어의 코드리뷰를 통해 코칭
 > * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
 >   * Next Step 멤버십 : 이력서, 기술면접 멘토링 교육
