@@ -39,7 +39,7 @@ toc_sticky: true
 > * DB 스키마 설계
 > * AWS 인프라 구축, 운영(비용 관리)
 > 
-> **개발 환경**
+> **사용 기술**
 > * Java(Spring Boot), MyBatis, Gradle, JUnit
 > * AWS(EC2, RDS-Aurora)
 > * Bitbucket
@@ -58,8 +58,8 @@ toc_sticky: true
 > **담당 업무**
 > * AWS S3 SDK를 활용하여 전자 결재 시 영수증 파일 업로드 기능 수정
 > * 직원별 연차에 따라 휴가 일수를 다르게 처리하는 기능 버그 수정
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * PHP(CI), AWS(EC2, RDS-Aurora, S3), JavaScript(jQuery)
 
 ---
@@ -75,11 +75,10 @@ toc_sticky: true
 >   * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
 >   * 정산 이월, 지급일 변경, 메일 전송 등 기능 유지보수
 >   * 광고 수익 데이터 파일 업로드 기능 구현
->   * 기능별 중복 코드 리팩터링, 구조 개선과 쿼리 튜닝
->   * 그 외 운영팀의 사용 편의성을 위한 추가 요구사항 반영
-> * Bitbucket(web hook)과 Jenkins(execute shell), 리눅스 crontab을 통한 배포 자동화
-> 
-> **개발 환경**
+>   * 기능별 중복 코드 리팩터링을 통해 구조 개선과 쿼리 튜닝, 추가 요구 사항 반영
+> * DB 서버의 AWS RDS 유형 변경 및 S3 백업 기능 설정
+>
+> **사용 기술**
 > * Java(Spring Boot), MyBatis, Gradle, JavaScript(jQuery)
 > * AWS(EC2, RDS-Aurora, ACM)
 > * Bitbucket, Jenkins
@@ -96,14 +95,14 @@ toc_sticky: true
 > * 사용되는 AWS 인스턴스 리소스를 AWS CloudWatch 콘솔을 통해 모니터링, 장애 대응
 >   * 특정 서비스의 트래픽 부하로 스케일링 그룹 AZ의 리소스 부족으로 스케일 아웃 실패
 >   * AMI로 다른 AZ의 인스턴스 직접 생성하여 로드밸런서에 연결하여 대응
+>   * 스케일링 그룹의 다른 AZ를 추가하여 향후 장애 방지
 > * 사용되지 않는 서비스 모듈 약 10개 정리
-> * 메가존 빌링 서비스를 사용하여 AWS 인스턴스 비용 관리 및 최적화
->   * 사용되지 않는 AWS 리소스(EC2, EBS 등) 삭제하여 월 기준 약 30달러 절약
->   * 인스턴스의 유형 변경 또는 예약 인스턴스 사용으로 비용 절감
+> * 메가존 빌링 서비스를 사용하여 AWS 인스턴스 비용 관리, 최적화
+>   * 사용되지 않는 서비스 모듈 및 AWS 리소스 정리, 인스턴스의 유형을 변경하여 유지 비용 절감
 > * 비용 절감 목적으로 SpotInst(베스핀 기업의 스팟인스턴스 관리 서비스) 사용 테스트
 >   * 해당 서비스의 불안정한 상태 때문에 적용 실패
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * EC2(AMI, ELB, Auto Scaling), RDS(Aurora), CloudWatch, CloudFront, IAM
 
 ---
@@ -118,16 +117,16 @@ toc_sticky: true
 > **담당 업무**
 > * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 배치 모듈 개발
 >   * Jsoup를 사용하여 크롤링 구현, 리눅스 crontab으로 반복 실행 처리
->   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용, 배포 자동화
-> * 구글 SEO(Search Engine Optimization) 가이드 적용, 문서화
->   * 구글 검색시 상단 노출, AMP별 요청 트래픽 발생으로 광고 수익 창출
-> * AMP 퍼블리싱 서버 유지보수, 운영
+>   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용하여 배포 자동화
+> * AMP 퍼블리싱 서버 유지보수
 >   * 매체별 규격에 맞춰 AMP 유효성 확인, AMP(+AMP Story) 템플릿 수정
 >   * 각 기사 페이지 CDN(AWS CloudFront) 적용하여 렌더링 속도 개선
+>   * 구글 SEO(Search Engine Optimization) 가이드 적용, 문서화
+>     * 구글 검색시 AMP가 상단에 노출이 되면서 요청 트래픽이 발생하여 광고 수익 창출
 > * 비슷한 유형의 크롤러 모듈 약 6개 병합, 소스 형상관리 및 배포 측면에서 관리 포인트 축소
->   * 이로 인해 사용하지 않게된 AWS EC2 인스턴스 약 3개 삭제, 월 약 $200 절감 효과
-> 
-> **개발 환경**
+>   * 이로 인해 사용하지 않게된 AWS EC2 인스턴스 약 3개 삭제, 월 기준 약 $200 절감 효과
+>
+> **사용 기술**
 > * Java, Jsoup, MyBatis, Gradle, JavaScript(Vue.js), PHP(CI)
 > * AWS(EC2, RDS-Aurora, CloudFront)
 > * Bitbucket, Jenkins
@@ -146,7 +145,7 @@ toc_sticky: true
 > * DB 스키마 설계
 > * Oauth2.0 기준으로 인증 프로세스 설계, Resource 서버 구현
 >
-> **개발 환경**
+> **사용 기술**
 > * PHP(CI), JavaScript(Node.JS), AWS(EC2, RDS-PostgreSQL)
 
 ---
@@ -166,9 +165,10 @@ toc_sticky: true
 > * REST API 서버 개발
 >   * 채널, 시청 기록, 구독, 코멘트 등 각 기능 CRUD API 구현
 >   * ehCache 라이브러리를 사용하여 영상 데이터 캐싱 처리하여 불필요한 API 호출 개선
+> * Spring Boot Log, DB 등 초기 설정
 > * DB 스키마 설계
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * Java(Spring Boot), MyBatis, Gradle, TypeScript(Ionic)
 > * AWS(EC2, RDS-PostgreSQL)
 > * Vimeo API
@@ -185,8 +185,8 @@ toc_sticky: true
 > 
 > **담당 업무**
 > * 엑셀파일 업로드 기능 구현, 데이터 운송장 출력 기능 구현
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * PowerBuilder, Oracle
 
 ---
@@ -202,8 +202,8 @@ toc_sticky: true
 >   * RS232, RS485 시리얼 통신으로 저울, 스캐너, 프린터 등 장비 통신 기능 구현
 >   * 피킹 제품 일치 여부 확인, 배송 정보 조회, 운송장 출력 등 기능 구현
 > * 현장 통합 테스트 진행
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * VB6, Oracle, MS Access
 > 
 > **기타**
@@ -220,8 +220,8 @@ toc_sticky: true
 > **담당 업무**
 > * 피킹 프로세스 변경 및 운송장, 주문 내역서 등 출력 데이터, 포맷 변경
 > * 제품과 랙 위치 레이아웃 등 화면 변경
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * VB6, Oracle, MS Access
 
 ---
@@ -235,7 +235,7 @@ toc_sticky: true
 > **담당 업무**
 > * 앱 문자 송신 기능 버그 수정, 메시지 내용 변경
 >
-> **개발 환경**
+> **사용 기술**
 > * Java(Android)
 
 ---
@@ -252,8 +252,8 @@ toc_sticky: true
 > * 카트 피킹 프로그램 유지보수
 >   * 제품 조회, 피킹 처리 기능 수정
 > * 현장 통합 테스트 진행
-> 
-> **개발 환경**
+>
+> **사용 기술**
 > * VB6, C#, Oracle, MS Access
 > 
 > **기타**
@@ -270,5 +270,5 @@ toc_sticky: true
 > **담당 업무**
 > * 자재 조회 및 입출고 기능 개발
 >
-> **개발 환경**
+> **사용 기술**
 > * Java(Spring-JSP), Oracle
