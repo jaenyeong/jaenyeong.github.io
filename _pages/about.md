@@ -69,7 +69,7 @@ toc_sticky: true
 ---
 
 ### 미림미디어랩 (2017.04 ~ 2018.01)
-**앱 & 백엔드 개발** : Java(Spring Boot), AWS, TypeScript(Ionic), Git
+**백엔드 & 앱 개발** : Java(Spring Boot), AWS, TypeScript(Ionic), Git
 
 > * 미디어박스(콘텐츠 동영상 재생 서비스) 앱과 API 서버 개발, 유지보수
 > * 한국방송통신전파진흥원에서 지원사업 방송 콘텐츠 부분 최우수상 수상 (미디어박스)
@@ -99,7 +99,7 @@ toc_sticky: true
 >   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
 >   * FireStore를 활용하여 채팅 기능 개발
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
->   * DDD를 기반으로 서버 구조 리팩터링
+>   * DDD를 팀에 전파하면서 서버 구조 리팩터링
 > * Spring Boot Log, DB 등 초기 설정
 > * DB 스키마 설계
 > * AWS 인프라 구축, 운영(비용 관리)
@@ -120,8 +120,8 @@ ADOP (2019.04 ~ 2019.07) 4개월
 >   * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
 >   * 정산 이월, 지급일 변경, 메일 전송 등 기능 유지보수
 >   * 광고 수익 데이터 파일 업로드 기능 구현
->   * 기능별 중복 코드 리팩터링을 통해 구조 개선과 쿼리 튜닝, 추가 요구 사항 반영
-> * DB 서버의 AWS RDS 유형 변경 (r4 > r5), S3 백업 기능 설정
+>   * 기능별 중복 코드 리팩터링을 통해 구조 개선과 쿼리 튜닝
+> * DB 서버의 AWS RDS 스케일 업 (r4 > r5), S3 백업 기능 설정
 > 
 > **사용 기술**
 > * Java(Spring Boot, Logback), MyBatis, Gradle, JUnit, JavaScript(jQuery), AWS(EC2, RDS-Aurora, ACM), Bitbucket, Jenkins
@@ -229,12 +229,8 @@ ADOP (2018.09 ~ 2019.01) 5개월
 >   * 서버에 데이터를 직접 요청 시 트래픽이 증가하여 다른 서비스(API)에 영향을 줄 수 있음
 >   * 또한 용량이 큰 데이터를 서버에서 직접 캐싱하는 것은 성능(메모리)에 지장을 초래함
 
----
-
 ### 그 외 나머지 프로젝트
 * [수행한 모든 프로젝트](https://jaenyeong.github.io/projects)
-
----
 
 ## Learn
 
