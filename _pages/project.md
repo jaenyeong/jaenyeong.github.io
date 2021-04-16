@@ -34,10 +34,10 @@ toc_sticky: true
 >   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
 >   * FireStore를 활용하여 채팅 기능 개발
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
->   * DDD를 기반으로 서버 구조 리팩터링
-> * Spring Boot Log, DB 등 초기 설정
-> * DB 스키마 설계
+>   * DDD를 팀에 전파하면서 서버 구조 리팩터링
 > * AWS 인프라 구축, 운영(비용 관리)
+> * DB 스키마 설계
+> * Spring Boot Log, DB 등 초기 설정
 > 
 > **사용 기술**
 > * Java(Spring Boot), MyBatis, Gradle, JUnit
@@ -75,8 +75,8 @@ toc_sticky: true
 >   * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
 >   * 정산 이월, 지급일 변경, 메일 전송 등 기능 유지보수
 >   * 광고 수익 데이터 파일 업로드 기능 구현
->   * 기능별 중복 코드 리팩터링을 통해 구조 개선과 쿼리 튜닝, 추가 요구 사항 반영
-> * DB 서버의 AWS RDS 유형 변경 및 S3 백업 기능 설정
+>   * 기능별 중복 코드 리팩터링을 통해 구조 개선과 쿼리 튜닝
+> * DB 서버의 AWS RDS 스케일 업 (r4 > r5), S3 백업 기능 설정
 >
 > **사용 기술**
 > * Java(Spring Boot), MyBatis, Gradle, JavaScript(jQuery)
