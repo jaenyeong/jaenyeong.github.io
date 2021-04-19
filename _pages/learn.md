@@ -15,11 +15,11 @@ toc_sticky: true
 ### 우아한테크캠프 Pro 1기
 Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 
-> * 일반 사용자가 사용하는 서비스 개발에 필요한 지식과 기술 학습
->   * TDD(클린코드, 리팩터링), ATDD, JPA, AWS 등 학습
->   * 각 미션마다 리뷰어의 코드리뷰를 통해 코칭
+> * TDD(Test Driven Development), ATDD(Acceptance Test Driven Development), JPA, AWS 등 학습
+>   * 위 내용을 활용하여 레거시를 안전하게 리팩터링하는 방법, 안정적인 서버 구축 방법 학습
+>   * 각 미션마다 리뷰어와의 코드 리뷰를 진행
 > * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
->   * Next Step 멤버십 : 이력서, 기술면접 멘토링 교육
+>   * Next Step 멤버십을 통해 이력서, 기술면접 멘토링 교육 수강
 > * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
 > * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
 > * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)

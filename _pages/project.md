@@ -32,9 +32,9 @@ toc_sticky: true
 > **담당 업무**
 > * TDD를 활용해 REST API 서버 개발
 >   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
->   * FireStore를 활용하여 채팅 기능 개발
+>   * FireStore(구글 실시간 DB)에 채팅 데이터 보관 처리
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
->   * DDD를 팀에 전파하면서 서버 구조 리팩터링
+>   * 서버 구조 리팩터링
 > * AWS 인프라 구축, 운영(비용 관리)
 > * DB 스키마 설계
 > * Spring Boot Log, DB 등 초기 설정
@@ -75,7 +75,7 @@ toc_sticky: true
 >   * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
 >   * 정산 이월, 지급일 변경, 메일 전송 등 기능 유지보수
 >   * 광고 수익 데이터 파일 업로드 기능 구현
->   * 기능별 중복 코드 리팩터링을 통해 구조 개선과 쿼리 튜닝
+>   * 기능별 중복 코드 리팩터링을 통해 구조 개선 및 쿼리 튜닝
 > * DB 서버의 AWS RDS 스케일 업 (r4 > r5), S3 백업 기능 설정
 >
 > **사용 기술**
@@ -115,7 +115,7 @@ toc_sticky: true
 > * 변환 모듈 개발, AMP 서버 유지보수 (광고 삽입하여 수익 창출)
 >
 > **담당 업무**
-> * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 배치 모듈 개발
+> * 고객사(매체)가 제공하는 RSS를 AMP 데이터로 변환하는 모듈 개발
 >   * Jsoup를 사용하여 크롤링 구현, 리눅스 crontab으로 반복 실행 처리
 >   * Bitbucket(web hook)과 Jenkins(execute shell)를 사용하여 배포 자동화
 > * AMP 퍼블리싱 서버 유지보수
@@ -171,7 +171,7 @@ toc_sticky: true
 > **사용 기술**
 > * Java(Spring Boot), MyBatis, Gradle, TypeScript(Ionic)
 > * AWS(EC2, RDS-PostgreSQL)
-> * Vimeo API
+> * Vimeo(동영상 파일 서버) API
 
 ---
 
