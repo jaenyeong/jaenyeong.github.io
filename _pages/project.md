@@ -34,7 +34,7 @@ toc_sticky: true
 >   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
 >   * FireStore(구글 실시간 DB)에 채팅 데이터 보관 처리
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
->   * 서버 구조 리팩터링
+>   * 서버 내부 구조 리팩터링
 > * AWS 인프라 구축, 운영(비용 관리)
 > * DB 스키마 설계
 > * Spring Boot Log, DB 등 초기 설정

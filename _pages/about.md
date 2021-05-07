@@ -24,7 +24,7 @@ toc_sticky: true
 * 기업 내 서비스와 인프라를 꾸준히 관리하여 유지 비용 절감
 * 대규모 시스템 개발 프로젝트에 참여, 개발 및 현장 시스템 통합 테스트 진행
 
-위 경험을 기반으로 고객에게 편의를 제공할 수 있는 **리액티브 시스템**을 구축하려 노력하고 있습니다.
+위 경험을 기반으로 고객에게 편의를 제공할 수 있는 서비스를 구축하려 노력하고 있습니다.
 
 그리고 이를 위해 평소에도 꾸준히 책을 읽거나 강의 수강을 통해 학습, 훈련하고 있으며 
 이렇게 얻은 지식을 업무에 활용하며 당면한 문제들을 풀어나가고 있습니다.
@@ -83,8 +83,6 @@ toc_sticky: true
 > * 현장 통합 테스트 진행, 프로그램 세팅
 >   * 미국 LA 해외 출장(1개월), 경북 김천 출장(6개월) 등
 
----
-
 ## Project
 
 ### 공간기록 (가구 인테리어 디자인 플랫폼) 개발
@@ -99,7 +97,7 @@ toc_sticky: true
 >   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
 >   * FireStore(구글 실시간 DB)에 채팅 데이터 보관 처리
 >   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
->   * 서버 구조 리팩터링
+>   * 서버 내부 구조 리팩터링
 > * Spring Boot Log, DB 등 초기 설정
 > * DB 스키마 설계
 > * AWS 인프라 구축, 운영(비용 관리)
@@ -241,17 +239,20 @@ ADOP (2018.09 ~ 2019.01) 5개월
 ### 우아한테크캠프 Pro 1기
 Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 
-> * TDD(Test Driven Development), ATDD(Acceptance Test Driven Development), JPA, AWS 등 학습
->   * 위 내용을 활용하여 레거시를 안전하게 리팩터링하는 방법, 안정적인 서버 구축 방법 학습
->   * 각 미션마다 리뷰어와의 코드 리뷰를 진행
+> * 강의 내용을 활용하여 레거시를 안전하게 리팩터링하는 방법, 안정적인 서버 구축 방법 학습
+>   * TDD(Test Driven Development)
+>   * ATDD(Acceptance Test Driven Development)
+>   * JPA(Java Persistence API)
+>   * AWS(Amazon Web Service)
+> * 미션마다 리뷰어와의 코드 리뷰를 통해 
+>   * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
+>   * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
+>   * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
+>   * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
+>   * [Lotto](https://github.com/jaenyeong/java-lotto)
+>   * [Racing Car](https://github.com/jaenyeong/java-racingcar)
 > * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
 >   * Next Step 멤버십을 통해 이력서, 기술면접 멘토링 교육 수강
-> * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
-> * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
-> * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
-> * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
-> * [Lotto](https://github.com/jaenyeong/java-lotto)
-> * [Racing Car](https://github.com/jaenyeong/java-racingcar)
 
 ---
 

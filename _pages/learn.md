@@ -15,7 +15,7 @@ toc_sticky: true
 ### 우아한테크캠프 Pro 1기
 Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
 
-> * TDD(Test Driven Development), ATDD(Acceptance Test Driven Development), JPA, AWS 등 학습
+> * TDD(Test Driven Development), ATDD(Acceptance Test Driven Development), JPA, AWS
 >   * 위 내용을 활용하여 레거시를 안전하게 리팩터링하는 방법, 안정적인 서버 구축 방법 학습
 >   * 각 미션마다 리뷰어와의 코드 리뷰를 진행
 > * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
