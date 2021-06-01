@@ -1,6 +1,6 @@
 ---
 layout: single
-date: 2021-05-31
+date: 2021-06-01
 title : "[HTTP] 인프런-HTTP 정리"
 description: "Inflearn HTTP Lecture 김영한 인프런 강의 정리"
 categories:
@@ -772,7 +772,7 @@ Hyper Text Transfer Protocol
   * 이름(인가되지 않음)과 다르게 인증의 문제
   * 참고
     * 인증(Authentication)
-      * 본인이 누구인지 확인, (로그인)
+      * 본인이 누구인지 확인 (로그인)
     * 인가(Authorization)
       * 권한부여 (어드민 권한처럼 특정 리소스에 접근할 수 있는 권한, 인증 후 절차)
 * 403 (Forbidden)
@@ -1073,7 +1073,7 @@ Hyper Text Transfer Protocol
   
 ---
 
-**도메인**
+**쿠키 접근 도메인**
 * 예) `domain=example.org`
 * 명시 (명시한 문서 기준 도메인 + 서브 도메인 포함)
   * `domain=example.org`를 지정해서 쿠키 생성
@@ -1086,7 +1086,7 @@ Hyper Text Transfer Protocol
 
 ---
 
-**경로**
+**쿠키 접근 경로**
 * 예) `path=/home`
 * 이 경로를 포함한 하위 경로 페이지만 쿠키 접근
 * 일반적으로 `path=/` 루트로 지정
