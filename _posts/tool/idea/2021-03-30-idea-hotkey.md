@@ -1,6 +1,6 @@
 ---
 layout: single
-date: 2021-03-30
+date: 2021-06-01
 title : "[IntelliJ IDEA] 단축키 모음"
 description: "IntelliJ IDEA HotKey Shortcut 인텔리제이 단축키 모음"
 categories:
@@ -9,7 +9,6 @@ tags:
   - IntelliJ
   - IDEA
   - HotKey
-
 ---
 
 ## 단축키
@@ -225,8 +224,15 @@ tags:
 
 ## KeyMap for Mac
 
-![KeyMap for Mac]({{site.url}}/assets/images/tool/2021/03/keymap-mac.jpeg)
+![KeyMap for Mac]({{site.url}}/assets/images/tool/idea/keymap-mac.jpeg)
+
+## FastCampus KeyMap for Mac
+![fastcampus for Mac]({{site.url}}/assets/images/tool/idea/idea-fastcampus-mac.jpeg)
 
 ## KeyMap for Windows
 
-![KeyMap for Mac]({{site.url}}/assets/images/tool/2021/03/keymap-windows.jpeg)
+![KeyMap for Windows]({{site.url}}/assets/images/tool/idea/keymap-windows.jpeg)
+
+## FastCampus KeyMap for Windows
+
+![fastcampus for Windows]({{site.url}}/assets/images/tool/idea/idea-fastcampus-windows.jpeg)
