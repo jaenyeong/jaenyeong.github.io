@@ -205,6 +205,7 @@ Uniform Resource Identifier
    HTTP/1.1 200 OK
    Content-Type: text/html;charset=UTF-8
    Content-Length: 3423
+   
    <html>
        <body>...</body>
    </html>
@@ -319,7 +320,7 @@ Hyper Text Transfer Protocol
     * GET, POST, PUT, DELETE, 기타
   * 요청 대상 (/serach?q=hello&hl=ko)
     * absolute-path[?query] 절대경로[?쿼리]
-    * 절대 경로 = "/"로 시작하는 경로
+    * 절대 경로 = `/`로 시작하는 경로
     * `http://..?x=y`와 같이 다른 유형의 경로 지정 방법도 존재
   * HTTP Version
 
@@ -358,7 +359,8 @@ Hyper Text Transfer Protocol
 ---
 
 **HTTP 메시지 바디**
-* 실제 전송 데이터
+
+실제 전송 데이터
   * HTML, 이미지, 영상, 기타 JSON 데이터 등 byte로 표현 가능한 모든 데이터
 
 ---
@@ -422,7 +424,7 @@ Hyper Text Transfer Protocol
 #### POST
 * 요청 데이터 처리
 * POST 요청 스펙
-  * 대상 리소스가 리소스의 고유한 의미 체계에 따라 요청에 포함된 표현을 처리하도록 요청
+  * 대상 리소스가 요청에 포함된 표현을 리소스의 고유한 의미 체계에 따라 처리하도록 요청
 * 메시지 바디를 통해 서버로 요청 데이터 전달
   * 서버는 메시지 바디를 통해 들어온 데이터를 처리하는 모든 기능 수행
 * 주로 전달된 데이터로 신규 리소스 등록, 프로세스 처리에 사용됨
@@ -434,7 +436,7 @@ Hyper Text Transfer Protocol
     * 신규 주문 생성
   * 기존 리소스에 데이터 추가
     * 문서에 내용 추가
-* 리소스 URI에 POST 요청이 오면 데이터를 어떻게 처리할 지 리소스마다 개별적으로 설정해야 함
+* 리소스 URI에 POST 요청이 오면 데이터를 어떻게 처리할 지 리소스마다 개별적인 설정 필요
 * 정리
   * 새 리소스 생성 및 등록
   * 요청 데이터 처리
@@ -446,7 +448,9 @@ Hyper Text Transfer Protocol
     * 조회 시 조회 데이터(JSON 등)로 인해서 GET 메서드를 사용하기 어려운 경우
 * 요청
   ~~~
-  POST /members HTTP/1.1 Content-Type: application/json
+  POST /members HTTP/1.1
+  Content-Type: application/json
+  
   {
       "username": "hello",
       "age": 20
@@ -527,7 +531,7 @@ Hyper Text Transfer Protocol
   * 검색, 게시판 목록 내 정렬 필터 (검색어)
   * 필터링, 정렬 조건 등에 주로 사용
   * 조회는 GET 사용 (쿼리 스트링)
-    * 실무에서는 GET 요청시 쿼리 스트링 사용을 권장하지 않음
+    * 실무에서 GET 요청 시 메시지 바디 사용을 권장하지 않음
 * HTML Form을 통한 데이터 전송
   * 회원 가입, 상품 주문 등 데이터 변경
   * `Content-Type: application/x-www-form-urlencoded`
@@ -564,15 +568,15 @@ Hyper Text Transfer Protocol
 ---
 
 **회원 관리 시스템 (POST 기반)**
-* 회원 목록 /members -> GET
-* 회원 등록 /members -> POST
-* 회원 조회 /members/{id} -> GET
-* 회원 수정 /members/{id} -> PATCH, PUT, POST
-* 회원 삭제 /members/{id} -> DELETE
+* 회원 목록 `/members` -> GET
+* 회원 등록 `/members` -> POST
+* 회원 조회 `/members/{id}` -> GET
+* 회원 수정 `/members/{id}` -> PATCH, PUT, POST
+* 회원 삭제 `/members/{id}` -> DELETE
 * 특징
   * 클라이언트는 등록될 리소스의 URI를 모름
-    * 회원 등록 /members -> POST
-    * POST /members
+    * 회원 등록 `/members` -> POST
+    * `POST /members`
   * 서버가 새로 등록된 리소스 URI를 생성해 반환
     ~~~
     HTTP/1.1 201 Created
@@ -587,40 +591,40 @@ Hyper Text Transfer Protocol
 ---
 
 **파일 관리 시스템 (PUT 기반)**
-* 파일 목록 /files -> GET
-* 파일 조회 /files/{filename} -> GET
-* 파일 등록 /files/{filename} -> PUT
-* 파일 삭제 /files/{filename} -> DELETE
-* 파일 대량 등록 /files -> POST
+* 파일 목록 `/files` -> GET
+* 파일 조회 `/files/{filename}` -> GET
+* 파일 등록 `/files/{filename}` -> PUT
+* 파일 삭제 `/files/{filename}` -> DELETE
+* 파일 대량 등록 `/files` -> POST
 * 특징
   * 클라이언트가 리소스 URI를 알고 있어야 함
-    * 파일 등록 /files/{filename} -> PUT 
-    * PUT /files/star.jpg
+    * 파일 등록 `/files/{filename}` -> PUT 
+    * `PUT /files/star.jpg`
   * 클라이언트가 직접 리소스의 URI를 지정
   * 스토어(Store)
     * 클라이언트가 관리하는 리소스 저장소
     * 클라이언트가 리소스의 URI를 알고 관리
-    * 여기서 스토어는 /files
+    * 여기서 스토어는 `/files`
 
 ---
 
 **회원 관리 시스템(HTML Form 사용)**
-* 회원 목록 /members -> GET
-* 회원 등록 폼 /members/new -> GET
-* 회원 등록 /members/new, /members -> POST
+* 회원 목록 `/members` -> GET
+* 회원 등록 폼 `/members/new` -> GET
+* 회원 등록 `/members/new`, `/members` -> POST
   * POST 요청과 GET 요청의 URI를 맞추는 것도 고려
     * 예를 들어 유효성 검사 중 문제가 발생한 경우  
       POST 요청의 최종 데이터를 담아 회원 등록 Form으로 다시 보내야 할 때  
       경로가 다르면 리프레시 등으로 원래 Form으로 돌아가기 어려움
-* 회원 조회 /members/{id} -> GET
-* 회원 수정 폼 /members/{id}/edit -> GET
-* 회원 수정 /members/{id}/edit, /members/{id} -> POST
-* 회원 삭제 /members/{id}/delete -> POST
+* 회원 조회 `/members/{id}` -> GET
+* 회원 수정 폼 `/members/{id}/edit` -> GET
+* 회원 수정 `/members/{id}/edit`, `/members/{id}` -> POST
+* 회원 삭제 `/members/{id}/delete` -> POST
 * 특징
   * 순수 HTML Form은 GET, POST만 지원 (제한적)
   * 컨트롤 URI (동사 사용)
     * GET, POST만 사용할 수 밖에 없는 제약 극복을 위해 사용
-    * POST 요청과 /new, /edit, /delete 등의 컨트롤 URI를 함께 사용하여 처리
+    * POST 요청과 `/new`, `/edit`, `/delete` 등의 컨트롤 URI를 함께 사용하여 처리
     * 추가적으로 HTTP 메서드로 해결하기 애매한 경우 사용
   * AJAX 등 기술을 통해 해결
 
@@ -629,19 +633,19 @@ Hyper Text Transfer Protocol
 **참고하면 좋은 URI 설계 개념**
 * 문서 (document)
   * 단일 개념(파일 하나, 객체 인스턴스, 데이터베이스 row)
-  * 예) /members/100, /files/star.jpg
+  * 예) `/members/100`, `/files/star.jpg`
 * 컬렉션 (collection)
   * 서버가 관리하는 리소스 디렉터리
   * 서버가 리소스의 URI를 생성하고 관리
-  * 예) /members
+  * 예) `/members`
 * 스토어 (store)
   * 클라이언트가 관리하는 자원 저장소
   * 클라이언트가 리소스의 URI를 알고 관리
-  * 예) /files
+  * 예) `/files`
 * 컨트롤러 (controller), 컨트롤 URI
   * 문서, 컬렉션, 스토어로 해결하기 어려운 추가 프로세스 실행
   * 동사를 직접 사용
-  * 예) /members/{id}/delete
+  * 예) `/members/{id}/delete`
 * [참고 문서](https://restfulapi.net/resource-naming/)
 
 ---
@@ -718,8 +722,8 @@ Hyper Text Transfer Protocol
 * 종류
   * 영구적인 리다이렉션 (특정 리소스의 URI가 영구적으로 이동됨)
     * 원래의 URL이 사용되지 않음을 표현, 검색 엔진 등에서도 변경 인지
-    * 예) /members -> /users
-    * 예) /events -> /new-event
+    * 예) `/members` -> `/users`
+    * 예) `/events` -> `/new-event`
     * 301, 308 등
   * 일시적인 리다이렉션 (일시적으로 변경)
     * 일시적인 변경이기 때문에 검색 엔진 등에서 URL을 변경하면 안됨
@@ -778,7 +782,7 @@ Hyper Text Transfer Protocol
 * 403 (Forbidden)
   * 서버의 승인 거부
   * 일반적으로 인가 권한이 부족한 경우에 사용
-  * 예) 일반 사용자가 어드민 등급의 리소스에 접근하는 경우
+  * 예) 일반 사용자가 어드민 권한이 필요한 리소스에 접근하는 경우
 * 404 (Not Found)
   * 요청 리소스를 찾을 수 없음
   * 클라이언트가 권한이 부족한 리소스에 접근 시도 시 해당 리소스를 숨기고 싶은 경우
@@ -803,8 +807,7 @@ Hyper Text Transfer Protocol
 ### HTTP 헤더
 
 **헤더 필드**
-* `field-name : OWS field-value OWS`
-  * OWS : 띄어쓰기 허용
+* `field-name : OWS field-value OWS` (OWS : 띄어쓰기 허용)
 * field-name은 대소문자 구문 없음
 
 **용도**
@@ -941,20 +944,50 @@ Hyper Text Transfer Protocol
 
 **상세**
 * 단순 전송
+  * 일반 전송
+    ~~~
+    HTTP/1.1 200 OK
+    Content-Type: text/html;charset=UTF-8
+    Content-Length: 3423
+    
+    <html>
+        <body>...</body>
+    </html>
+    ~~~
 * 압축 전송
   * Content-Encoding 사용
+    ~~~
+    HTTP/1.1 200 OK
+    Content-Type: text/html;charset=UTF-8
+    Content-Encoding: gzip
+    Content-Length: 521
+
+    lkj123kljoiasudlkjaweioluywlnfdo912u34ljko98udjkl
+    ~~~
 * 분할 전송
   * Transfer-Encoding 사용
+    ~~~
+    HTTP/1.1 200 OK
+    Content-Type: text/plain
+    Transfer-Encoding: chunked
+
+    5
+    Hello
+    5
+    World
+    0
+    \r\n
+    ~~~
   * Content-Length 삽입하지 말 것
     * 분할 시 예상하기 어려움
     * 분할된 파트마다 길이를 별도로 표현
 * 범위 전송
-  * 특정 범위를 지정해서 전송 요청
+  * Range 사용 (특정 범위를 지정해서 전송 요청)
     ~~~
     GET /event
     Range: bytes=1001-2000
     ~~~
-  * 요청 범위 반환
+  * Content-Range 사용 (요청 범위 반환)
     ~~~
     HTTP/1.1 200 OK
     Content-Type: text/plain
@@ -1034,13 +1067,13 @@ Hyper Text Transfer Protocol
 * Cookie
   * 클라이언트가 서버에서 받은 쿠키를 저장, HTTP 요청시 서버로 전달
   
-**Stateless**
+**Stateless - 쿠키 사용 이유**
 * 요청에 대한 응답 후 연결은 끊어짐
 * 연결이 끊어지면 이전 요청을 기억하지 못함
 * 매 요청마다 정보를 넘기는 것은 문제
   * 모든 요청에 사용자 정보가 포함되도록 개발해야 함
   * 브라우저를 완전 종료 후 다시 실행하면?
-    * 웹 스토리지 사용
+    * 이때 웹 스토리지 사용 가능
 
 ---
 
@@ -1099,7 +1132,7 @@ Hyper Text Transfer Protocol
 
 ---
 
-**보안**
+**쿠키 접근 보안**
 * Secure
   * 기본적으로 쿠키는 http, https를 구분하지 않고 전송
   * Secure를 적용하면 https인 경우에만 전송
@@ -1108,7 +1141,7 @@ Hyper Text Transfer Protocol
   * 자바스크립트에서 접근 불가(document.cookie)
   * HTTP 전송에만 사용
 * SameSite
-  * XSRF 공격 방지
+  * XSRF(CSRF( 공격 방지
   * 요청 도메인과 쿠키에 설정된 도메인이 같은 경우만 쿠키 전송
   * 브라우저의 지원 정도를 확인 후 사용할 것
 
@@ -1246,7 +1279,6 @@ Hyper Text Transfer Protocol
     Content-Type: image/jpeg
     cache-control: max-age=60
     ETag "aaaaaaaaaa"
-    ETag: "aaaaaaaaaa"
     Content-Length: 34012
     ~~~
 
