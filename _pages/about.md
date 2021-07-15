@@ -43,6 +43,13 @@ toc_sticky: true
 
 ## Career
 
+### 에이치디정션 (2021.07 ~ 현재)
+**백엔드 개발** : Kotlin(Spring Boot), NCP, Git(Github)
+
+> * EMR 솔루션 API 서버 개발, 유지보수
+
+---
+
 ### 스페이스컬쳐 (2019.09 ~ 2020.01)
 **백엔드 개발** : Java(Spring Boot), AWS, Git(Bitbucket)
 
