@@ -236,63 +236,45 @@ ADOP (2018.09 ~ 2019.01) 5개월
 
 ---
 
-### 그 외 나머지 프로젝트
-* [수행한 모든 프로젝트](https://jaenyeong.github.io/projects)
+### 나머지 프로젝트 더 보기
+* [수행한 프로젝트 전체 보기](https://jaenyeong.github.io/projects)
 
 ---
 
 ## Learn
 
-### 우아한테크캠프 Pro 1기
-Next Step & 우아한 형제들 (2020.12 ~ 2021.01)
+### 도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기
+멋쟁이사자처럼 & 카카오엔터프라이즈 (2021.08 ~ 진행 중)
 
-> * 강의 내용을 활용하여 레거시를 안전하게 리팩터링하는 방법, 안정적인 서버 구축 방법 학습
+> * 도커/쿠버네티스 핵심 개념과 구성 방법 학습
+>   * 클러스터 구성 방법, 컨테이너 앱의 배포 및 제어 방법 학습
+> * 온라인 강의, 주차 별 과제를 통해 학습 진행
+>   * [과제 및 강의 내용 정리](https://github.com/jaenyeong/Lecture_Docker-K8S)
+
+---
+
+### 우아한테크캠프 Pro 1기
+Nextstep & 우아한형제들 (2020.12 ~ 2021.01)
+
+> * TDD를 기반으로 클린코드 작성 및 레거시 리팩터링 방법과 안정적인 서버 구축 방법 학습
 >   * TDD(Test Driven Development)
 >   * ATDD(Acceptance Test Driven Development)
 >   * JPA(Java Persistence API)
 >   * AWS(Amazon Web Service)
-> * 미션마다 리뷰어와의 코드 리뷰를 통해 
->   * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
->   * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
->   * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
->   * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
->   * [Lotto](https://github.com/jaenyeong/java-lotto)
->   * [Racing Car](https://github.com/jaenyeong/java-racingcar)
 > * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
 >   * Next Step 멤버십을 통해 이력서, 기술면접 멘토링 교육 수강
+> * 각 미션마다 리뷰어와의 코드 리뷰를 진행
+>   * [Racing Car](https://github.com/jaenyeong/java-racingcar)
+>   * [Lotto](https://github.com/jaenyeong/java-lotto)
+>   * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
+>   * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
+>   * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
+>   * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
 
 ---
 
-### 나홀로 DDD Workshop
-Fastcampus (2019.09 ~ 2019.09)
-
-> * 도메인, 애그리게이트 등 개념과 기존 DB 위주 개발시 패러다임 불일치 문제점 등 학습
-> * 공간기록 프로젝트의 기획, 설계 단계에서 적용
-> * [DDD 학습 1](https://github.com/jaenyeong/Lecture_DDD-190921)
-> * [DDD 학습 2](https://github.com/jaenyeong/Lecture_DDD-190922)
-
----
-
-### 클린코드를 위한 TDD, 리팩터링 3기
-Next Step (2018.11 ~ 2018.12)
-
-> * TDD의 대한 개념과 클린코드의 중요성, 테스트 코드를 통한 안전한 리팩터링 방법 학습 
-> * 공간기록 프로젝트에서 수강 내용을 활용해 클린코드를 작성
->   * 객체지향 설계와 단위 테스트 작성으로 기존보다 유연하고 안정적으로 기능 구현
-
----
-
-### 스프링부트를 활용한 쇼핑몰 프로젝트 1기
-Fastcampus (2018.07 ~ 2018.09)
-
-> * Spring Boot의 AOP, IoC, PSA의 개념, 아키텍처, 설정 방법 등 학습
-> * Insight, 공간기록 등 Spring Boot를 사용하는 모든 프로젝트에서 수강 내용 활용
-> * [Spring Boot 학습](https://github.com/jaenyeong/Lecture_SpringBoot)
-
----
-
-### 그 외 나머지 강의
-* [수강한 모든 강의](https://jaenyeong.github.io/learns)
+### 나머지 강의 더 보기
+* [수강한 강의 전체 보기](https://jaenyeong.github.io/learns)
 
 ---
 
