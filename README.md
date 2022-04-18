@@ -29,6 +29,9 @@
 > bundle exec jekyll serve
 ~~~
 
+### 접속
+* 브라우저에서 `http://127.0.0.1:4000` 접속
+
 ### ruby(rbenv) 설치 실행시 에러 발생한 경우
 ~~~
 > brew update && brew upgrade
