@@ -1,8 +1,8 @@
 ---
 layout: single
 permalink: /about/
-date: 2021-04-16
-title: "엔지니어를 향해 걷는 개발자"
+date: 2022-08-10
+title: "끝 없이 배우는 개발자"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
 toc_label: "about me"
@@ -18,35 +18,35 @@ toc_sticky: true
 ---
 
 ## Introduce
-안녕하세요. **Java, Spring Boot, AWS**를 주력으로 개발해온 5년 차 백엔드 개발자 김재녕입니다.  
-저는 SI, 스타트업 등 다양한 환경에서 개발자로서 경험을 쌓아왔습니다.  
-* 기획, 설계, 개발, 테스트, 배포 등 개발 프로세스 전반을 직접 수행
-* 기업 내 서비스와 인프라를 꾸준히 관리하여 유지 비용 절감
-* 대규모 시스템 개발 프로젝트에 참여, 개발 및 현장 시스템 통합 테스트 진행
+안녕하세요. **Kotlin(Java), Spring Boot, AWS**가 주력인 6년 차 백엔드 개발자 김재녕입니다.  
+저는 개발자로서 다양한 곳에서 다음과 같은 경험을 통해 성장하는 중입니다.
+* 기획, 설계, 개발, 테스트, CI/CD 등 개발 프로세스 전반을 직접 수행
+* 기업 내 클라우드 관리와 리소스 최적화를 통한 비용 절감
+* 대규모 시스템 개발 프로젝트에 참여하여 개발 및 현장 시스템 통합 테스트 진행
+* 팀내 코드 리뷰 활성화 등 개발 문화 개선 기여
 
-위 경험을 기반으로 고객에게 편의를 제공할 수 있는 서비스를 구축하려 노력하고 있습니다.
-
-그리고 이를 위해 평소에도 꾸준히 책을 읽거나 강의 수강을 통해 학습, 훈련하고 있으며 
-이렇게 얻은 지식을 업무에 활용하며 당면한 문제들을 풀어나가고 있습니다.
+또한 배우는 것을 좋아해 꾸준히 책과 강의 수강을 통해 학습 및 훈련하고 있습니다.  
+그리고 이는 당면한 문제들을 풀어나가는 데 많은 도움이 되고 있습니다.
 
 ---
 
 ## Skill
-* **Language** : Java
-* **Framework** : Spring Boot, MyBatis, JUnit
+* **Language** : Kotlin(Java)
+* **Framework** : Spring Boot, JPA, JUnit
 * **Database** : MySQL
 * **Cloud** : AWS (EC2, CloudFront, RDS-Aurora, S3)
-* **Tool** : IntelliJ IDEA
-* **Etc** : Gradle, Git(GitHub), Jenkins
+* **Etc** : K8s, Kafka, Jenkins, Argo CD, Git
 
 ---
 
 ## Career
 
 ### 에이치디정션 (2021.07 ~ 현재)
-**백엔드 개발** : Kotlin(Spring Boot), NCP, Git(Github)
+**백엔드 개발** : Kotlin(Spring Boot), NCP, Git(Github), K8s, Jenkins, Argo CD, Kafka
 
 > * EMR 솔루션 API 서버 개발, 유지보수
+> * 의료 데이터 표준에 맞춰 EMR 데이터 실시간 마이그레이션
+> * CI/CD 등 전사적인 DevOps(SRE) 업무 수행
 
 ---
 
@@ -59,7 +59,7 @@ toc_sticky: true
 ---
 
 ### ADOP (2018.09 ~ 2019.09)
-**백엔드 개발** : Java(Spring Boot), PHP(CI), AWS, Git(Bitbucket), Jenkins, Jira
+**백엔드 개발** : Java(Spring Boot), PHP(CI), AWS, Git(Bitbucket), Jenkins
 
 > * 광고 수익 정산 비용 관리 서비스 레거시 리팩터링, 유지보수
 > * 사내 AWS 인스턴스 관리, 비용 최적화
@@ -92,44 +92,20 @@ toc_sticky: true
 
 ## Project
 
-### 공간기록 (가구 인테리어 디자인 플랫폼) 개발
-스페이스컬쳐 (2019.09 ~ 2020.01) 5개월
+### 실시간 의료 데이터 변환, 전송
+에이치디정션 (2021.10 ~ 2022.07) 8개월
 
 > **설명**
-> * 오늘의집 앱을 벤치마킹한 가구 제품 거래 서비스 개발
-> * 인테리어 디자이너가 고객에게 인테리어를 제안하며 제품을 추천하는 플랫폼
-> 
+> * 사내 의료 데이터를 국제 의료 데이터 표준 모델에 맞춰 실시간 마이그레이션 적용
+>
 > **담당 업무**
-> * TDD를 활용해 REST API 서버 개발
->   * Bootpay API를 활용하여 결제 검증, 취소 기능 개발
->   * FireStore(구글 실시간 DB)에 채팅 데이터 보관 처리
->   * 그 외 카트, 상품, 주문 등 주요 기능 CRUD API 개발 및 단위 테스트 작성
->   * 서버 내부 구조 리팩터링
-> * Spring Boot Log, DB 등 초기 설정
-> * DB 스키마 설계
-> * AWS 인프라 구축, 운영(비용 관리)
-> 
+> * 의료 데이터를 국제 의료 데이터 표준 모델에 맞게 변환
+> * Spring, JPA로 기존에 의료 데이터 대량을 ETL(Extract Transform Load) 적용
+> * Kafka 이벤트를 활용하여 실시간 ETL 적용
+> * CI/CD를 위해 Jenkins 빌드 파이프라인 및 Argo CD 설정
+>
 > **사용 기술**
-> * Java(Spring Boot, Log4j2), MyBatis, Gradle, JUnit, AWS(EC2, RDS-Aurora), Bitbucket, Bootpay API, FireStore
-
----
-
-### Insight (광고 수익 정산 서비스) 유지보수
-ADOP (2019.04 ~ 2019.07) 4개월
-
-> **설명**
-> * 광고 수익 정산 관리를 위한 사내 서비스 유지보수, 운영
-> 
-> **담당 업무**
-> * 신규 기능 추가, 기존 기능 버그 수정
->   * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
->   * 정산 이월, 지급일 변경, 메일 전송 등 기능 유지보수
->   * 광고 수익 데이터 파일 업로드 기능 구현
->   * 기능별 중복 코드 리팩터링을 통해 구조 개선 및 쿼리 튜닝
-> * DB 서버의 AWS RDS 스케일 업 (r4 > r5), S3 백업 기능 설정
-> 
-> **사용 기술**
-> * Java(Spring Boot, Logback), MyBatis, Gradle, JUnit, JavaScript(jQuery), AWS(EC2, RDS-Aurora, ACM), Bitbucket, Jenkins
+> * Kotlin, Spring boot, JPA, NCP(Object Storage), Jenkins, Argo CD, Kafka
 
 ---
 
