@@ -1,8 +1,8 @@
 ---
 layout: single
 permalink: /learns/
-date: 2021-04-16
-title: "지금까지 수강한 모든 교육 이력"
+date: 2022-09-17
+title: "수강한 모든 교육 목록"
 description: ""
 subject: blog
 toc_label: "All Lectures"
@@ -12,109 +12,115 @@ toc_sticky: true
 
 ## Learn
 
-### 도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기
-멋쟁이 사자처럼 & 카카오엔터프라이즈 (2021.08 ~ 진행 중)
+### 카카오 엔지니어와 데이터 엔지니어링 입문 3기
+러닝스푼즈 (2022.09 ~ 진행 중)
 
-> * 도커/쿠버네티스 핵심 개념과 구성 방법 학습
->   * 클러스터 구성 방법, 컨테이너 앱의 배포 및 제어 방법 학습
-> * 온라인 강의, 주차 별 과제를 통해 학습 진행
->   * [과제 및 강의 내용 정리](https://github.com/jaenyeong/Lecture_Docker-K8S)
+> 데이터 엔지니어링, 파이프라인 개념 학습 및 실습
+> * AWS(S3, Athena, Kinesis), ELK, Kafka 등을 활용한 데이터 파이프라인 구현
+
+---
+
+### 도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기
+멋쟁이 사자처럼 & 카카오엔터프라이즈 (2021.08 ~ 2022.01)
+
+사내에 구성된 K8s를 다루기 위해 수강
+
+> [도커/쿠버네티스 핵심 개념과 클러스터 구성 방법 학습](https://github.com/jaenyeong/Lecture_Docker-K8S)
+> * ELK 등을 활용해 로그 모니터링 방법 학습
+> * ArgoCD 등을 활용해 컨테이너 앱의 배포 및 제어 방법 학습
 
 ---
 
 ### 우아한테크캠프 Pro 1기
-Nextstep & 우아한형제들 (2020.12 ~ 2021.01)
+NEXTSTEP & 우아한형제들 (2020.12 ~ 2021.01)
 
-> * TDD를 기반으로 클린코드 작성 및 레거시 리팩터링 방법과 안정적인 서버 구축 방법 학습
->   * TDD(Test Driven Development)
->   * ATDD(Acceptance Test Driven Development)
->   * JPA(Java Persistence API)
->   * AWS(Amazon Web Service)
-> * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
->   * Next Step 멤버십을 통해 이력서, 기술면접 멘토링 교육 수강
-> * 각 미션마다 리뷰어와의 코드 리뷰를 진행
->   * [Racing Car](https://github.com/jaenyeong/java-racingcar)
->   * [Lotto](https://github.com/jaenyeong/java-lotto)
+> 코드 리뷰를 통해 각 미션을 진행하며 클린코드 작성 및 JPA 사용 방법, 아키텍처 설계 방법 등 학습
+> * TDD를 통한 OOP 설계 및 테스트하기 쉬운 코드 작성 방법 학습
+>   * [Racing Car](https://github.com/jaenyeong/java-racingcar), [Lotto](https://github.com/jaenyeong/java-lotto)
+> * JPA를 통한 ORM 개념 학습
 >   * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
->   * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
->   * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
+> * ATDD(Acceptance Test Driven Development)를 통해 다양한 케이스를 테스트하는 방법 학습
+>   * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin), [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
+> * 테스트코드를 통해 기존 레거시 프로젝트 리팩터링
 >   * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
+> * AWS를 활용해 신뢰성 높은 서버 구축 방법 학습
+> 
+> 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
+> * 해당 자격을 통해 이력서, 기술면접 멘토링
 
 ---
 
 ### 코딩 테스트 합격케어 몰입캠프
 Algorithm jobs (2020.11 ~ 2021.01)
 
-> * 시간 복잡도, 공간 복잡도 계산법과 그리디, BFS & DFS, DP 등 기초 개념 학습
-> * [알고리즘잡스 문제풀이](https://github.com/jaenyeong/Lecture_Algorithmjobs)
+> [그리디, BFS & DFS, DP 등 기초 알고리즘 및 접근 방법 학습](https://github.com/jaenyeong/Lecture_Algorithmjobs)
 
 ---
 
 ### Vue.js 정복 CAMP
 Fastcampus (2019.10 ~ 2019.12)
 
-> * MVVM 패턴 기반 아키텍처, 컴포넌트와 axios 개념 등 학습
-> * [Vue.js 학습](https://github.com/jaenyeong/Lecture_Vue.js)
+> [MVVM 패턴 기반 아키텍처, 컴포넌트와 axios 개념 등 학습](https://github.com/jaenyeong/Lecture_Vue.js)
 
 ---
 
 ### 나홀로 DDD Workshop
 Fastcampus (2019.09 ~ 2019.09)
 
-> * 도메인, 애그리게이트 등 개념과 기존 DB 위주 개발시 패러다임 불일치 문제점 등 학습
-> * 공간기록 프로젝트의 기획, 설계 단계에서 적용
-> * [DDD 학습 1](https://github.com/jaenyeong/Lecture_DDD-190921)
-> * [DDD 학습 2](https://github.com/jaenyeong/Lecture_DDD-190922)
+> 도메인, 애그리게이트 등 개념과 기존 DB 위주 개발시 패러다임 불일치 문제점 등 학습
+> * [DDD 학습 1](https://github.com/jaenyeong/Lecture_DDD-190921), [DDD 학습 2](https://github.com/jaenyeong/Lecture_DDD-190922)
 
 ---
 
 ### 클린코드를 위한 TDD, 리팩터링 3기
 Nextstep (2018.11 ~ 2018.12)
 
-> * TDD의 대한 개념과 클린코드의 중요성, 테스트 코드를 통한 안전한 리팩터링 방법 학습
-> * 공간기록 프로젝트에서 수강 내용을 활용해 클린코드를 작성
->   * 객체지향 설계와 단위 테스트 작성으로 기존보다 유연하고 안정적으로 기능 구현
+기존 소스 및 클래스 구조 리팩터링 시 학습 내용 활용
+
+> TDD의 대한 개념과 클린코드의 중요성, 테스트 코드를 통한 안전한 리팩터링 방법 학습
 
 ---
 
 ### 스프링부트를 활용한 쇼핑몰 프로젝트 1기
 Fastcampus (2018.07 ~ 2018.09)
 
-> * Spring Boot의 AOP, IoC, PSA의 개념, 아키텍처, 설정 방법 등 학습
-> * Insight, 공간기록 등 Spring Boot를 사용하는 모든 프로젝트에서 수강 내용 활용
-> * [Spring Boot 학습](https://github.com/jaenyeong/Lecture_SpringBoot)
+스프링 부트 지식 확장 및 프로젝트 설정을 위해 수강
+
+> [Spring Boot의 AOP, IoC, PSA의 개념, 아키텍처, 설정 방법 등 학습](https://github.com/jaenyeong/Lecture_SpringBoot)
 
 ---
 
 ### Docker 기반의 DevOps 인프라 구축 Workshop
 Fastcampus (2018.07 ~ 2018.08)
 
-> * 도커 정의, LXC 컨테이너를 기반으로 한 도커 컨테이너 개념 등 학습
-> * DockerFile을 통해 도커 이미지 생성, DockerHub를 활용하여 이미지 공유 방법 등 학습
+사내 모듈을 도커 기반으로 변경하기 위해 수강
+
+> 도커 정의, 도커 컨테이너 등 도커 개념 학습
+> * DockerFile을 통해 도커 이미지 생성, DockerHub를 활용하여 이미지 공유 방법 등 실습
 
 ---
 
 ### TypeScript를 활용한 Angular2 과정
 더조은아카데미학원 (2017.10 ~ 2017.11)
 
-> * TypeScript 개념, 컴파일 메커니즘 등 학습
-> * Angular 컴포넌트, 디렉티브 등 학습, 미디어박스 앱 개발시 참고
-> * [Angular2 학습](https://github.com/jaenyeong/Lecture_Angular2)
+미디어박스(하이브리드 앱) 개발에 사용한 Ionic을 올바르게 활용하기 위해 수강
+
+> [TypeScript의 개념과 컴파일 메커니즘 등, Angular의 컴포넌트, 디렉티브 개념 등 학습](https://github.com/jaenyeong/Lecture_Angular2)
 
 ---
 
 ### 파이썬 과정
 더조은컴퓨터아트학원 (2017.07 ~ 2017.08)
 
-> * 파이썬 문법 숙지, beautifulSoup를 활용하여 크롤링 기능 구현
-> * 당시 회사에서 파이썬으로 서버를 개발하자는 의견 때문에 장단점 파악을 위해 수강
-> * [Python 학습](https://github.com/jaenyeong/Lecture_python)
+사내 파이썬 프로젝트의 방향성을 파악하기 위해 수강
+
+> [파이썬 문법 및 개념 숙지, beautifulSoup를 활용하여 크롤링 기능 구현](https://github.com/jaenyeong/Lecture_python)
 
 ---
 
 ### Java & DB 개발자 과정 교육
 비트교육센터 (2016.10 ~ 2017.03)
 
-> * 기본적인 Java, Spring 국비 지원 교육 과정
-> * 해당 강의를 수강하면서 웹 개발로 전향
-> * [조별 프로젝트](https://github.com/jaenyeong/Project_Bitcamp-Java89-Z)
+해당 교육을 통해 웹 개발자로 커리어 변경
+
+> Java, Spring, MyBatis를 활용한 웹 서비스 구축 및 개발 방법 학습
