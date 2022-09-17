@@ -12,11 +12,30 @@ toc_sticky: true
 
 ## Learn
 
+### 교육자 양성 과정 2기
+NEXTSTEP (2022.09 ~ 진행 중)
+
+교육적 경험이 향후 리더십 역량에 필수 요소라고 판단하여 수강
+
+> 다른 교육자와 차별화된 '경험' 위주의 교육 방법 학습
+
+---
+
 ### 카카오 엔지니어와 데이터 엔지니어링 입문 3기
 러닝스푼즈 (2022.09 ~ 진행 중)
 
 > 데이터 엔지니어링, 파이프라인 개념 학습 및 실습
 > * AWS(S3, Athena, Kinesis), ELK, Kafka 등을 활용한 데이터 파이프라인 구현
+
+---
+
+### TDD, 클린 코드 with Kotlin 3기
+NEXTSTEP (2021.10 ~ 2021.12)
+
+배운 내용을 코드 리뷰에 적극 활용
+
+> 코틀린을 활용한 TDD, 단위 테스트 구현 방법 학습
+> * [Racing Car](https://github.com/jaenyeong/kotlin-racingcar), [Lotto](https://github.com/jaenyeong/kotlin-lotto)
 
 ---
 
