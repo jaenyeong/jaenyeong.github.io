@@ -24,9 +24,13 @@
 ### 실행 설정
 ~~~
 > gem install bundler
-> bundle update
 > bundle install
+> bundle update
 > bundle exec jekyll serve
+> # 에러 발생 시 
+> # bundler: failed to load command: jekyll (/Users/jaenyeong/.rbenv/versions/3.1.2/bin/jekyll)
+/Users/jaenyeong/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
+> # bundle add webrick 실행
 ~~~
 
 ### 접속
@@ -34,14 +38,29 @@
 
 ### ruby(rbenv) 설치 실행시 에러 발생한 경우
 ~~~
+> # brew 패키지 최신화
 > brew update && brew upgrade
+> 
+> # 루비 관리 패키지 rbenv 설치
 > brew install rbenv ruby-build
+>
+> # rbenv 설치 가능한 목록(버전) 확인
+> rbenv install -l
+>
+> # GNU 바이너리 유틸리티 제거
 > brew uninstall binutils
-> rbenv install 2.6.6 && rbenv local 2.6.6 ;
+>
+> # rbenv 패키지를 통해 최신(지정) 루비 버전 설치
+> # 실패 (BUILD FAILED (macOS 12.6 using ruby-build 20220910.1))
+> rbenv install 3.1.2 && rbenv local 3.1.2
+>
+> # zshrc에 rbenv 설정 추가
 > vim ~/.zshrc
-    [[ -d ~/.rbenv  ]] && \
-    export PATH=${HOME}/.rbenv/bin:${PATH} && \
-    eval "$(rbenv init -)"
+> 
+> [[ -d ~/.rbenv  ]] && \
+> export PATH=${HOME}/.rbenv/bin:${PATH} && \
+> eval "$(rbenv init -)"
+> 
 > source ~/.zshrc
 ~~~
 
