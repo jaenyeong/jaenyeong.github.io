@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /learns/
-date: 2022-11-10
+date: 2022-11-18
 title: "수강한 모든 교육 목록"
 description: ""
 subject: blog
@@ -16,15 +16,15 @@ toc_sticky: true
 NEXTSTEP (2022.09 ~ 2022.10)
 
 > 교육적 경험이 향후 리더십 역량에 필수 요소라고 판단하여 수강
-> * 다른 교육자와 차별화된 '경험' 위주의 교육 방법 학습
+> * 다른 교육자와 차별화된 경험 위주의 교육 방법 학습
 
 ---
 
 ### 카카오 엔지니어와 데이터 엔지니어링 입문 3기
 러닝스푼즈 (2022.09 ~ 2022.10)
 
-> 데이터 엔지니어링, 파이프라인 개념 학습 및 실습
-> * AWS(S3, Athena, Kinesis), ELK, Kafka 등을 활용한 데이터 파이프라인 구현
+> 데이터 엔지니어링 개념 학습 및 AWS를 활용해 데이터 파이프라인 설계, 구현 실습
+> * AWS(S3, Athena, Kinesis), ELK, Kafka 등 실습
 
 ---
 
@@ -39,7 +39,7 @@ NEXTSTEP (2021.10 ~ 2021.12)
 ### 도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기
 멋쟁이 사자처럼 & 카카오엔터프라이즈 (2021.08 ~ 2022.01)
 
-> [도커/쿠버네티스 핵심 개념과 클러스터 구성 방법 학습](https://github.com/jaenyeong/Lecture_Docker-K8S)
+> [K8s 핵심 개념 및 클러스터, 파드 구성/제어 방법 실습](https://github.com/jaenyeong/Lecture_Docker-K8S)
 > * ELK 등을 활용해 로그 모니터링 방법 학습
 > * ArgoCD 등을 활용해 컨테이너 앱의 배포 및 제어 방법 학습
 
@@ -48,17 +48,12 @@ NEXTSTEP (2021.10 ~ 2021.12)
 ### 우아한테크캠프 Pro 1기
 NEXTSTEP & 우아한형제들 (2020.12 ~ 2021.01)
 
-> * TDD 학습
+> * TDD, JPA, ATDD(Acceptance Test Driven Development), 레거시 리팩터링 학습
 >   * [Racing Car](https://github.com/jaenyeong/java-racingcar), [Lotto](https://github.com/jaenyeong/java-lotto)
-> * JPA 학습
 >   * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
-> * ATDD(Acceptance Test Driven Development) 학습
 >   * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin), [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
-> * 테스트 코드를 통한 레거시 리팩터링
 >   * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
-> * AWS를 활용해 신뢰성 높은 서버 구축 방법 학습
-> 
-> 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
+> * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
 
 ---
 
