@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2022-11-22
+date: 2022-11-24
 title: "6년 차 백엔드 개발자"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -13,7 +13,7 @@ toc_sticky: true
 ## 김재녕
 * **Email** : jaenyeong.dev@gmail.com
 * **Github** : [Link](https://github.com/jaenyeong)
-* 배우는 것을 좋아해 다양한 [강의](./learn.md)를 꾸준히 수강하는 편이며 개발 문화 개선에 관심이 많습니다.
+* 배우는 것을 좋아해 다양한 [강의](https://jaenyeong.github.io/learns/)를 꾸준히 수강하는 편이며 개발 문화 개선에 관심이 많습니다.
 
 ## Skill
 * **Language** : Kotlin, Java
