@@ -22,19 +22,31 @@
   * 게시물 작성 위치
 
 ### 실행 설정
-~~~
-> gem install bundler
-> bundle install
-> bundle update
-> bundle exec jekyll serve
-> # 에러 발생 시 
-> # bundler: failed to load command: jekyll (/Users/jaenyeong/.rbenv/versions/3.1.2/bin/jekyll)
-/Users/jaenyeong/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
-> # bundle add webrick 실행
+~~~console
+# bundler 설치, 업데이트
+gem install bundler
+
+# 번들 설치 및 업데이트
+bundle install
+bundle update
 ~~~
 
+### 실행
+
+```console
+bundle exec jekyll serve
+
+# 실행 시 webric 에러 발생
+bundler: failed to load command: jekyll (/Users/jaenyeong/.rbenv/versions/3.1.2/bin/jekyll)
+/Users/jaenyeong/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
+
+# webric은 간단한 HTTP 서버를 제공하는 루비 라이브러리
+# 아래 명령을 실행하여 webrick 추가
+bundle add webrick
+```
+
 ### 접속
-* 브라우저에서 `http://127.0.0.1:4000` 접속
+* 브라우저에서 [접속](http://127.0.0.1:4000)
 
 ### ruby(rbenv) 설치 실행시 에러 발생한 경우
 ~~~
@@ -70,6 +82,12 @@
 * include page__meta.html 주석 처리
 * _includes/archive-single.html 파일에 post.date 추가
 * _layouts/single.html 파일에 page.date 추가
+  
+### 테마 변경
+[테마 변경](_config.yml)
+
+### 띄어쓰기
+공백이 필요한 경우 중간에 `<br/>` 삽입
 
 ## 참조
 * jekyll 문서
