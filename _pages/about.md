@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-03-08
+date: 2023-03-09
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -27,19 +27,19 @@ toc_sticky: true
 
 ### 에이치디정션 (2021.07~2022.12)
 헬스케어 소프트웨어를 개발하는 스타트업의 백엔드 및 SRE 팀에서 의료 진료 서비스의 API 서버를 개발하며 서비스 운영에 필요한 인프라 관리와 기술 영역의 장애 대응을 수행했습니다. 또한 코드 리뷰 리딩과 사내 스터디를 리딩하면서 개발 문화 개선에 기여했습니다.
-* Kotlin(Spring, JPA), K8s, Kakfa(K8s Strimzi), NCP, Jenkins, ArgoCD, Git(Github)
+* Kotlin(Spring, JPA), MySQL, K8s, Kakfa(K8s Strimzi), NCP, Jenkins, ArgoCD, Git(Github)
 
 ### 스페이스컬쳐 (2019.09~2020.01)
 인테리어 가구 판매 서비스를 개발하는 스타트업의 백엔드 팀을 리딩하며 API 서버의 인프라 구축 및 결제, 채팅 등 주요 기능을 개발했습니다.
-* Java(Spring, MyBatis), AWS, Git(Bitbucket)
+* Java(Spring, MyBatis), AWS(EC2, RDS-Aurora, S3), Git(Bitbucket)
 
 ### 애드오피 (2018.09~2019.09)
 광고 미디에이션 및 수익 최적화 서비스 스타트업의 개발 팀에서 광고 비용 정산 서비스, 사내 인사 관리 서비스, AMP 변환 서비스 등을 개발하면서 AWS 담당자 부재 시 AWS 인프라 관리를 맡았으며 비용 최적화를 통해 비용을 절감했습니다.
-* Java(Spring, MyBatis), PHP(CI), AWS, Jenkins, Git(Bitbucket)
+* Java(Spring, MyBatis), PHP(CI), AWS(EC2, RDS-Aurora, S3), Jenkins, Git(Bitbucket)
 
 ### 미림미디어랩 (2017.04~2018.01)
 이러닝 서비스 기업의 개발 팀에서 콘텐츠 동영상 재생 서비스의 하이브리드 앱과 API 서버 개발을 수행했습니다.
-* Java(Spring, MyBatis), AWS, TypeScript(Ionic), Git
+* Java(Spring, MyBatis), AWS(RDS-Postgresql), TypeScript(Ionic), Git
 
 ### 진코퍼레이션 (2015.02~2016.07)
 물류, 풀필먼트를 위한 SCM 서비스 기업의 SCM 솔루션 팀에서 제품 피킹, 검품 서비스의 윈도우 앱 개발과 유지보수를 수행했습니다.
@@ -84,7 +84,7 @@ Kotlin(Spring Boot, JPA), Kafka(K8s Strimzi)
   카프카 브로커 메시지에 저장된 해당 데이터의 PK를 통해 전송할 데이터를 조회하여 미리 개발한 데이터 변환 모듈을 활용해 FHIR 포맷으로 변환, 네이버 서버로 전송 처리
 * Jenkins와 ArgoCD로 컨슈머 모듈의 CI/CD 설정
 
-**의료 데이터를 FHIR 포맷으로 변환, 일괄 전송하는 모듈 개발** (2021.10~2021.04) 6개월  
+**의료 데이터를 FHIR 포맷으로 변환, 일괄 전송하는 모듈 개발** (2021.10~2022.04) 6개월  
 자사 서비스에서 생성된 의료 데이터를 헬스케어 사업 전반에 범용적으로 활용하기 위해 개발
 
 Kotlin(Spring Boot, JPA), K8s(Docker), NCP(Container Registry), Jenkins, ArgoCD
@@ -144,10 +144,11 @@ PHP(CI), AWS(S3)
 Java(Spring Boot, MyBatis), AWS(S3)
 * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
 * 정산 이월, 지급일 변경, 광고 수익 지급 내역 메일 전송 등 기능 유지보수
-* AWS S3 SDK를 활용해 매체별 광고 수익 데이터 파일 업로드 기능 구현
+* AWS S3 SDK, Apache POI를 활용해 매체별 광고 수익 데이터 파일 업로드 기능 구현  
+  수동으로 입력하던 매체별 광고 수익을 파일 업로드 처리로 대체하면서 운영팀의 업무 시간 개선
 * 기능별 중복 코드 제거 리팩터링하면서 템플릿 메서드 패턴 등을 활용해 클래스 구조 개선
 
-**AWS 인스턴스, 비용 관리 및 최적화** (2019.02~2019.03) 2개월
+**AWS 인스턴스 관리, 비용 최적화** (2019.02~2019.03) 2개월
 * RDS DB 서버 스케일 업 (r4 > r5), S3 백업 설정 추가
 * EC2 Auto Scaling 시 가용 리소스가 부족한 경우 Auto Scaling 그룹에 다른 AZ 추가 설정  
   평상시 같은 리소스 스펙이라 하더라도 AZ에 따라 성능 차이가 존재하여 가급적 특정 AZ만 사용
@@ -195,12 +196,12 @@ Java(Spring Boot, MyBatis), AWS, TypeScript(Ionic)
 
 **아모레퍼시픽 오산 물류센터 B2B 관리 시스템 유지보수** (2016.06~2016.07) 2개월
 
-PowerBuilder, Oracle 10g
+PowerBuilder, Oracle
 * 엑셀파일 업로드 기능 구현, 데이터 운송장 출력 기능 구현
 
 **아모레퍼시픽 김천 물류센터 B2C 검품 시스템 개발** (2015.12~2016.05) 6개월
 
-VB6, Oracle 11g, MS Access
+VB6, Oracle, MS Access
 * RS232, RS485 시리얼 통신으로 저울, 스캐너, 프린터 등 장비 통신 기능 구현
 * 피킹 제품 일치 여부 확인, 배송 정보 조회, 운송장 출력 등 기능 구현
 * 개발한 검품 프로그램을 현장 PC에 설치, 환경 설정을 위해 고스트를 활용해 약 50대 PC의 세팅 시간 단축  
@@ -208,19 +209,24 @@ VB6, Oracle 11g, MS Access
 
 **아모레퍼시픽 오산 물류센터 PCS(Picking Cart System) 유지보수** (2015.08~2015.11) 4개월
 
-VB6, Oracle 10g, MS Access
+VB6, Oracle, MS Access
 * 피킹 프로세스 변경과 운송장, 주문 내역서 등 출력 데이터 포맷 변경
 * 제품과 랙 위치 등 화면 레이아웃 변경
 
+**아모레퍼시픽 TMS(Transport Management System) 배송 앱 메시지 전송 기능 유지보수** (2015.07~2015.07) 1개월
+
+Java(Android)
+* 앱 문자 송신 기능 버그 수정, 메시지 내용 변경
+
 **아모레퍼시픽 미국 물류센터 B2B 검품, PCS(Picking Cart System) 개발** (2015.03~2016.06) 4개월
 
-C#, Oracle 11g, MS Access
+C#, Oracle, MS Access
 * 검품 프로그램의 피킹 제품 일치 여부 확인, 배송 정보 조회, 운송장 출력 등 기능 구현
 * PCS의 제품 조회, 피킹 처리 기능 수정
 
 **아모레퍼시픽 BMS(Buy-Move-Sell) 자재 입출고 관리 시스템 유지보수** (2015.02~2015.02) 1개월
 
-Java(Spring-JSP)
+Java(Spring-JSP), Oracle
 * 자재 조회, 입출고 기능 개발
 
 ---
