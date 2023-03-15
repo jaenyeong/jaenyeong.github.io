@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-03-15
+date: 2023-03-16
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -123,7 +123,7 @@ toc_sticky: true
   개발 단계를 고려해 DB의 pessimistic lock을 활용해 동시성 제어 처리
 * FireStore(구글 실시간 DB)에 채팅 데이터 삽입 기능 구현  
   채팅 데이터 특성상 수정이 불가능하고 앱 간 데이터 동기화 등을 위해 구글의 문서형 NoSQL인 FireStore 사용
-* 그 외 주문, 상품 조회, 카트 등 기능 구현
+* 그 외 상품 조회, 카트 등 기능 구현
 * AWS를 사용하여 3Tier(ELB-EC2-RDS) 형태로 서비스 운영 환경 구축
 * API 서버 로그 롤링 설정 시 결제, 채팅 등 주요 기능별로 로그 파일을 생성하도록 설정  
   모니터링, 알람 등과 같은 기능이 없는 상황에서 쉽게 버그에 대한 로그 확인과 추후 메트릭 수집 등 기능 확장을 위해 처리
@@ -232,20 +232,18 @@ toc_sticky: true
 
 * 자재 조회, 입출고 기능 개발
 
----
-
 ## Learn
 
-**교육자 양성 과정 2기 / NEXTSTEP (2022.09~2022.10)**
+##### 교육자 양성 과정 2기 / NEXTSTEP (2022.09~2022.10)
 
-* 해당 강의를 통해 다른 사람을 교육, 리딩할 때 주입식이 아닌 경험 및 유도 방식으로 리딩하는 것을 습득
+* 해당 강의를 통해 다른 팀원들에게 주입식이 아닌 간접 경험 및 스스로 사고하는 방식으로 리딩하는 방법 학습
 * [코드리뷰 문화 개선 시 경험한 것을 토대로 우아한 테크코스 수강생 대상으로 교육 진행](https://docs.google.com/spreadsheets/d/1ce-XQOICL2OziVucr2dSZazzI3L2cfn8ySdTmpSn1Os/edit#gid=0)
 
-**도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기 (2021.08~2022.01)**
+##### 도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기 (2021.08~2022.01)
 
-* K8s 아키텍처 및 다양한 구축, 설정을 실습을 통한 학습으로 에이치디정션의 의료 진료 서비스 운영과 스테이지 서버 구축 시 활용
+* K8s를 실습을 통해 학습하여 에이치디정션의 의료 진료 서비스 운영과 스테이지 서버 구축 시 활용
 
-**우아한테크캠프 Pro 1기 / NEXTSTEP & 우아한형제들 (2020.12~2021.01)**
+##### 우아한테크캠프 Pro 1기 / NEXTSTEP & 우아한형제들 (2020.12~2021.01)
 
 * TDD(Test Driven Development), ATDD(Acceptance TDD), JPA, 레거시 리팩터링 방법을 하여 에이치디정션에서 개발, 코드 리뷰 시 활용
 * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
