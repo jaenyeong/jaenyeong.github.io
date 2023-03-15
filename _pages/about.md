@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-03-09
+date: 2023-03-15
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -13,7 +13,7 @@ toc_sticky: true
 ## Introduce
 * **Email** : jaenyeong.dev@gmail.com
 * **Github** : https://github.com/jaenyeong
-* 배우는 것을 좋아하는 6년 차 개발자입니다. 다양한 [강의](https://jaenyeong.github.io/learns/)를 꾸준히 수강하는 편이며 이를 토대로 기술 부채 해결에 기여하고 개발 문화를 개선하는 것을 좋아합니다.
+* 코틀린과 스프링을 주력으로 개발해온 6년 차 백엔드 개발자 김재녕입니다. 물류, 광고, 의료 등 다양한 도메인을 접하며 다양한 개발 환경에서의 경험을 기반으로 새로운 환경 적응에 능한 편입니다. 또한 배우는 것을 좋아하여 다양한 [강의](https://jaenyeong.github.io/learns/)를 꾸준히 수강하는 편이며 개발 문화를 개선하는 것을 좋아하여 코드 리뷰와 사내 스터디를 리딩한 경험이 있습니다.
 
 ## Skill
 
@@ -25,23 +25,23 @@ toc_sticky: true
 
 ## Career
 
-### 에이치디정션 (2021.07~2022.12)
-헬스케어 소프트웨어를 개발하는 스타트업의 백엔드 및 SRE 팀에서 의료 진료 서비스의 API 서버를 개발하며 서비스 운영에 필요한 인프라 관리와 기술 영역의 장애 대응을 수행했습니다. 또한 코드 리뷰 리딩과 사내 스터디를 리딩하면서 개발 문화 개선에 기여했습니다.
+### 에이치디정션 (2021.07~2022.12) 백엔드/SRE팀 - 백엔드 개발, DevOps
+헬스케어 소프트웨어를 개발하는 스타트업의 의료 진료 서비스를 개발하며 운영에 필요한 인프라 관리와 기술 영역의 장애 대응을 수행했습니다. 또한 코드 리뷰 리딩과 사내 스터디를 리딩하면서 개발 문화 개선에 기여했습니다.
 * Kotlin(Spring, JPA), MySQL, K8s, Kakfa(K8s Strimzi), NCP, Jenkins, ArgoCD, Git(Github)
 
-### 스페이스컬쳐 (2019.09~2020.01)
+### 스페이스컬쳐 (2019.09~2020.01) 백엔드팀 - 백엔드 개발
 인테리어 가구 판매 서비스를 개발하는 스타트업의 백엔드 팀을 리딩하며 API 서버의 인프라 구축 및 결제, 채팅 등 주요 기능을 개발했습니다.
 * Java(Spring, MyBatis), AWS(EC2, RDS-Aurora, S3), Git(Bitbucket)
 
-### 애드오피 (2018.09~2019.09)
-광고 미디에이션 및 수익 최적화 서비스 스타트업의 개발 팀에서 광고 비용 정산 서비스, 사내 인사 관리 서비스, AMP 변환 서비스 등을 개발하면서 AWS 담당자 부재 시 AWS 인프라 관리를 맡았으며 비용 최적화를 통해 비용을 절감했습니다.
+### 애드오피 (2018.09~2019.09) 개발팀 - 백엔드 개발, AWS 인프라 관리
+광고 미디에이션 및 수익 최적화 서비스 스타트업에서 광고 비용 정산 서비스, 사내 인사 관리 서비스, AMP 변환 서비스 등을 개발하면서 AWS 인프라 관리, 비용 최적화를 통해 클라우드 비용을 절감했습니다.
 * Java(Spring, MyBatis), PHP(CI), AWS(EC2, RDS-Aurora, S3), Jenkins, Git(Bitbucket)
 
-### 미림미디어랩 (2017.04~2018.01)
+### 미림미디어랩 (2017.04~2018.01) 플랫폼 개발팀 - 앱, 백엔드 개발
 이러닝 서비스 기업의 개발 팀에서 콘텐츠 동영상 재생 서비스의 하이브리드 앱과 API 서버 개발을 수행했습니다.
 * Java(Spring, MyBatis), AWS(RDS-Postgresql), TypeScript(Ionic), Git
 
-### 진코퍼레이션 (2015.02~2016.07)
+### 진코퍼레이션 (2015.02~2016.07) SCM 솔루션팀 - 윈도우 앱 개발
 물류, 풀필먼트를 위한 SCM 서비스 기업의 SCM 솔루션 팀에서 제품 피킹, 검품 서비스의 윈도우 앱 개발과 유지보수를 수행했습니다.
 * VB6, C#, PowerBuilder, Java(Spring-JSP), Oracle, MS Access
 
@@ -53,18 +53,18 @@ toc_sticky: true
 
 ### 에이치디정션
 
-**의료 진료 서비스 API 서버의 메모리와 초기화 설정을 통해 서비스 탄력성 개선** (2022.12~2022.12) 1개월
+##### 의료 진료 서비스 API 서버의 메모리와 초기화 설정을 통해 서비스 탄력성 개선 (1개월 / 2022.12~2022.12)
+**개발 환경:** Kotlin(Spring Boot, JPA), K8s(Docker)
 
-Kotlin(Spring Boot, JPA), K8s(Docker)
 * 요청 트래픽 증가로 발생한 API 서버의 K8s 파드 다운 장애를 메모리 설정으로 처리  
   해당 스프링 서버의 메모리 max값이 K8s 파드의 메모리 limit값보다 높아 발생한 K8s 파드 OOMKilled(137) 에러로 서버가 다운되어 이를 파드 메모리 설정값을 더 높게 설정
 * 재시작된 K8s 파드의 API 서버로 여러 API 요청이 라우팅 된 경우 발생한 서비스 중단 장애를 초기화 설정으로 처리  
   API 요청 별 스레드들이 순환 참조가 있던 JPA QueryDSL의 QClass를 동시에 초기화하면서 발생한 데드락을 스프링 ComponentScan으로 서버 로딩 직후 싱글 스레드 초기화로 변경
 
-**의료 진료 서비스 API 서버의 배포 테스트용 스테이지 서버 구축** (2022.11~2022.11) 1개월  
-배포 시 변경된 DB 스키마의 무결성 확인과 QA와 같은 운영 테스트를 목적으로 운영 환경과 최대한 유사하게 구축
+##### 의료 진료 서비스 API 서버의 배포 테스트용 스테이지 서버 구축 (1개월 / 2022.11~2022.11)
+**설명:** 배포 시 변경된 DB 스키마의 무결성 확인과 QA와 같은 운영 테스트를 목적으로 운영 환경과 최대한 유사하게 구축  
+**개발 환경:** Kotlin(Spring Boot, JPA), K8s(Docker), Jenkins, ArgoCD, Xen citrix(가상화 솔루션)
 
-Kotlin(Spring Boot, JPA), K8s(Docker), Jenkins, ArgoCD, Xen citrix(가상화 솔루션)
 * Xen citrix를 사용해 VM 노드 환경(K8s 마스터 노드1대, K8s 워커 노드 3대)을 K8s 최소 환경에 맞게 구축
 * 각 VM 노드의 K8s(kubeadm, kubelet, kubectl, cgroup 등) 설치, 설정
 * 의료 진료 서비스 API 서버의 파드 메모리 설정에서 limit, request를 동일하게 설정  
@@ -72,10 +72,10 @@ Kotlin(Spring Boot, JPA), K8s(Docker), Jenkins, ArgoCD, Xen citrix(가상화 솔
 * Jenkins와 ArgoCD로 서비스 모듈들의 CI/CD 설정
 * K8s의 버전을 운영 환경과 버전을 맞추기 위해 버전 업그레이드 수행 (1.17 > 1.18)
 
-**실시간으로 FHIR 포맷 의료 데이터를 네이버 서버로 연동하는 서비스 구축** (2022.05~2022.10) 6개월  
-네이버에서 헬스케어 사업의 활용할 목적으로 필요한 FHIR(Fast Healthcare Interoperability Resource - 의료 데이터 국제 기술 표준) 포맷 의료 데이터를 네이버 FHIR 서버로 전송하는 ETL(Extract-Transform-Load) 구축
+##### 실시간으로 FHIR 포맷 의료 데이터를 네이버 서버로 연동하는 서비스 구축 (6개월 / 2022.05~2022.10)
+**설명:** 네이버에서 헬스케어 사업의 활용할 목적으로 필요한 FHIR(Fast Healthcare Interoperability Resource - 의료 데이터 국제 기술 표준) 포맷 의료 데이터를 네이버 FHIR 서버로 전송하는 ETL(Extract-Transform-Load) 구축  
+**개발 환경:** Kotlin(Spring Boot, JPA), Kafka(K8s Strimzi)
 
-Kotlin(Spring Boot, JPA), Kafka(K8s Strimzi)
 * 네이버 서버로 전송할 의료 데이터를 API 서버에서 카프카 브로커에게 전송하는 기능 구현  
   전송할 데이터의 무결성을 위해 카프카를 도입하여 exactly-once 옵션을 설정, 또한 JPA의 엔티티 리스너에서 제로페이로드 방식으로 해당 데이터의 PK만을 브로커로 전송하여 데이터 무결성 책임을 컨슈머에게 위임
 * 해당 API 서버 모듈이 의존하는 JPA 엔티티 모듈의 카프카 의존성 제거 리팩터링  
@@ -84,26 +84,28 @@ Kotlin(Spring Boot, JPA), Kafka(K8s Strimzi)
   카프카 브로커 메시지에 저장된 해당 데이터의 PK를 통해 전송할 데이터를 조회하여 미리 개발한 데이터 변환 모듈을 활용해 FHIR 포맷으로 변환, 네이버 서버로 전송 처리
 * Jenkins와 ArgoCD로 컨슈머 모듈의 CI/CD 설정
 
-**의료 데이터를 FHIR 포맷으로 변환, 일괄 전송하는 모듈 개발** (2021.10~2022.04) 6개월  
-자사 서비스에서 생성된 의료 데이터를 헬스케어 사업 전반에 범용적으로 활용하기 위해 개발
+##### 의료 데이터를 FHIR 포맷으로 변환, 일괄 전송하는 모듈 개발 (6개월 / 2021.10~2022.04)
+**설명:** 자사 서비스에서 생성된 의료 데이터를 헬스케어 사업 전반에 범용적으로 활용하기 위해 개발  
+**개발 환경:** Kotlin(Spring Boot, JPA), K8s(Docker), NCP(Container Registry), Jenkins, ArgoCD
 
-Kotlin(Spring Boot, JPA), K8s(Docker), NCP(Container Registry), Jenkins, ArgoCD
 * HL7 FHIR 문서와 HAPI FHIR 프레임워크를 활용해 의료 데이터를 FHIR 포맷으로 변환하는 로직 구현  
   네이버와 협의를 통해 데이터명, 타입 등을 최대한 FHIR 규정에 맞춰 변경
 * 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 데이터 암복호화 인터셉터 구현
 * 기존 의료 데이터를 FHIR 포맷으로 변환, 네이버 FHIR 서버로 일괄 전송하는 기능 구현  
   전송 데이터(약 1만건)의 변환 처리로(약 50초) 발생하는 DB 커넥션 타임아웃(30초)을 코틀린 컬렉션의 parallel(CommonThreadPool)과 스프링 @Async를 활용해 처리(약 10초)
+* 변환 로직과 전송 기능을 테스트 하기 위한 FHIR 테스트 서버를 도커 컨테이너로 구축
 
-**의료 진료 서비스의 타이머 측정과 처방, 진단 코드 묶음 등 편의 기능 구현** (2021.07~2021.09) 3개월
+##### 의료 진료 서비스의 타이머 측정과 처방, 진단 코드 묶음 등 편의 기능 구현 (3개월 / 2021.07~2021.09)
+**개발 환경:** Kotlin(Spring Boot, JPA), MySQL, MongoDB
 
-Kotlin(Spring Boot, JPA), MySQL, MongoDB
-* 새로 추가된 정신과에서 진료비를 산정하기 위한 진료 시간 측정 타이머 기능 구현  
-  불필요한 진료 시간 수정 요청을 막기 위해 최초 데이터 생성 이후에는 진료 시간이 기존보다 큰 경우만 업데이트하도록 처리
-* 진료 업무 시 같은 반복 작업을 줄이기 위해 묶음으로 자주 사용되는 진단, 처방 코드를 한 번에 사용하는 묶음 기능 구현  
-  조회 빈도가 다른 작업보다 현저히 높고, 조회할 때 테이블 조인으로 인한 성능 저하를 피하기 위해 캐싱 처리
-* 여러 진료과가 있는 병원에서 진료과 배정 시간 단축을 위해 질병에 따라 기본 진료과가 결정되는 기능 구현
+* 여러 진료과가 있는 병원에서 질병에 따라 기본 진료과가 결정되는 기능 구현  
+  해당 기능으로 진료과 배정 시간 단축하여 진료 업무 환경 개선
 * 수많은 복잡한 약물을 쉽게 확인하기 위해 용법코드, 용법명, 투여경로, 횟수 등을 기준으로 정렬하는 기능 구현
 * 진단검사의학과 전문의 데이터를 기준으로 검체 검사(알레르기 검사 등)의 코드를 자동으로 산정하는 기능 구현
+* 진료 업무 시 같은 반복 작업을 줄이기 위해 묶음으로 자주 사용되는 진단, 처방 코드를 한 번에 사용하는 묶음 기능 구현  
+  조회 빈도가 다른 작업보다 현저히 높고, 조회할 때 테이블 조인으로 인한 성능 저하를 피하기 위해 캐싱 처리
+* 새로 추가된 정신과에서 진료비를 산정하기 위한 진료 시간 측정 타이머 기능 구현  
+  불필요한 진료 시간 수정 요청을 막기 위해 최초 데이터 생성 이후에는 진료 시간이 기존보다 큰 경우만 업데이트하도록 처리
 
 > **Contribute**  
 > 신규 입사자 대상으로 Git(사내 브랜치 전략 등) 온보딩 진행  
@@ -114,9 +116,9 @@ Kotlin(Spring Boot, JPA), MySQL, MongoDB
 
 ### 스페이스컬쳐
 
-**인테리어 가구 판매 서비스 API 서버의 인프라 구축 및 결제, 채팅 등 주요 기능 구현** (2019.09~2020.01) 5개월
+##### 인테리어 가구 판매 서비스 인프라 구축 및 결제, 채팅 등 주요 기능 구현 (5개월 / 2019.09~2020.01)
+**개발 환경:** Java(Spring Boot, MyBatis), AWS, Git(Bitbucket)
 
-Java(Spring Boot, MyBatis), AWS, Git(Bitbucket)
 * 결제 서비스인 Bootpay의 API를 활용하여 결제와 검증, 취소 API 구현  
   개발 단계를 고려해 DB의 pessimistic lock을 활용해 동시성 제어 처리
 * FireStore(구글 실시간 DB)에 채팅 데이터 삽입 기능 구현  
@@ -133,22 +135,23 @@ Java(Spring Boot, MyBatis), AWS, Git(Bitbucket)
 
 ### 애드오피
 
-**인사 관리 시스템의 전자 결재, 휴가 관리 기능 유지보수** (2019.08~2019.08) 1개월
+##### 인사 관리 시스템의 전자 결재, 휴가 관리 기능 유지보수 (1개월 / 2019.08~2019.08)
+**개발 환경:** PHP(CI), AWS(S3)
 
-PHP(CI), AWS(S3)
 * AWS S3 SDK를 활용해 전자 결재 시 영수증 파일 업로드 기능 유지보수
 * 직원의 연차별 휴가 일수 산정 기능 유지보수
 
-**광고 수익 정산 서비스의 수익 정산, 수익 이월 등 주요 기능 유지보수** (2019.04~2019.07) 4개월
+##### 광고 수익 정산 서비스의 수익 정산, 수익 이월 등 주요 기능 유지보수 (4개월 / 2019.04~2019.07)
+**개발 환경:** Java(Spring Boot, MyBatis), AWS(S3)
 
-Java(Spring Boot, MyBatis), AWS(S3)
 * 국가별 환율에 따라 부가세 계산, 매체별 배분율 계산 등 수익 정산 기능 유지보수
 * 정산 이월, 지급일 변경, 광고 수익 지급 내역 메일 전송 등 기능 유지보수
 * AWS S3 SDK, Apache POI를 활용해 매체별 광고 수익 데이터 파일 업로드 기능 구현  
   수동으로 입력하던 매체별 광고 수익을 파일 업로드 처리로 대체하면서 운영팀의 업무 시간 개선
 * 기능별 중복 코드 제거 리팩터링하면서 템플릿 메서드 패턴 등을 활용해 클래스 구조 개선
 
-**AWS 인스턴스 관리, 비용 최적화** (2019.02~2019.03) 2개월
+##### AWS 인스턴스 관리, 비용 최적화 (2개월 / 2019.02~2019.03)
+
 * RDS DB 서버 스케일 업 (r4 > r5), S3 백업 설정 추가
 * EC2 Auto Scaling 시 가용 리소스가 부족한 경우 Auto Scaling 그룹에 다른 AZ 추가 설정  
   평상시 같은 리소스 스펙이라 하더라도 AZ에 따라 성능 차이가 존재하여 가급적 특정 AZ만 사용
@@ -157,17 +160,17 @@ Java(Spring Boot, MyBatis), AWS(S3)
 * 미사용 서비스 모듈을 제거하면서 약 3개의 EC2 인스턴스를 함께 제거하여 월 기준 약 $200 절약
 * 메가존 빌링 서비스를 활용해 월별 지출 비용 확인, 관리하며 최적화 방향 논의
 
-**일반 기사 페이지를 AMP로 변환하는 모듈 개발 및 AMP 퍼블리싱 서버 유지보수** (2018.09~2019.01) 5개월
+##### 일반 웹 페이지를 AMP(Accelerated Mobile Pages)로 변환하는 서비스 개발, 유지보수 (5개월 / 2018.09 ~ 2019.01)
+**설명:** 더욱 빠른 AMP 페이지로 고객들의 이탈 방지를 위한 서비스  
+**개발 환경:** Java(MyBatis), Jsoup(크롤링 라이브러리), AWS(RDS-Aurora), Git(Bitbucket)
 
-AMP(Accelerated Mobile Pages)는 일반 페이지보다 빠른 속도로 렌더링 되는 페이지  
-RSS(Rich Site Summary)은 XML 포맷 데이터 형식의 콘텐츠 표현 방식
-
-Java(MyBatis), Jsoup(크롤링 라이브러리), AWS(RDS-Aurora), Git(Bitbucket)
-* Jsoup를 사용하여 대중매체가 제공하는 RSS를 AMP 데이터로 변환하는 크롤링 모듈 개발, 크론탭으로 반복 실행 처리
-* Jenkins(execute shell)와 Bitbucket(web hook)을 사용하여 CI/CD 설정
-* AMP 퍼블리싱 서버 매체별 규격에 맞춰 AMP 유효성 확인 로직 구현, AMP(+AMP Story) 템플릿 수정
-* 구글 SEO(Search Engine Optimization)를 위한 가이드 적용, 사내 문서화
+* Jsoup를 사용하여 대중매체가 제공하는 RSS(Rich Site Summary)를 AMP 데이터로 변환하는 크롤링 모듈 개발, 크론탭으로 반복 실행 처리
+* AMP 변환 모듈을 Jenkins(execute shell)와 Bitbucket(web hook)을 사용하여 CI/CD 설정
 * 구현한 스크래핑 모듈과 기능이 비슷한 모듈 6개를 모아 멀티 모듈로 구성, 기능 병합을 통해 소스 저장소를 1개로 줄이면서 관리 포인트 개선
+* AMP 데이터를 가져와 AMP 페이지로 퍼블리싱 하는 서버 유지보수  
+  AMP 가이드를 기준으로 유효성을 확인하는 로직 구현, AMP(+AMP Story) 템플릿 수정
+* 구글 SEO(Search Engine Optimization)를 위한 가이드 적용, 사내 문서화  
+  검색 시 해당 페이지를 상단에 노출 시켜 더욱 더 많은 클릭 유도, 광고 노출을 위해 SEO 적용
 
 > **Contribute**  
 > 평상 시 진행한 AWS 스터디로 AWS 담당자 부재 시 클라우드 인프라 관리 업무를 임시로 수행
@@ -176,9 +179,9 @@ Java(MyBatis), Jsoup(크롤링 라이브러리), AWS(RDS-Aurora), Git(Bitbucket)
 
 ### 미림미디어랩
 
-**콘텐츠 동영상 재생 서비스의 하이브리드 앱과 API 서버 개발** (2017.04~2018.01) 10개월
+##### 콘텐츠 동영상 재생 서비스의 하이브리드 앱과 API 서버 개발 (10개월 / 2017.04~2018.01)
+**개발 환경:** Java(Spring Boot, MyBatis), AWS, TypeScript(Ionic)
 
-Java(Spring Boot, MyBatis), AWS, TypeScript(Ionic)
 * Ionic 프레임워크를 활용해서 하이브리드 앱 개발, 화면 레이아웃 렌더링 구현  
   네이티브 앱 개발자의 부재로 하이브리드 앱으로 개발
 * 채널, 시청 기록, 구독, 코멘트 등 기능 CRUD API 개발
@@ -194,39 +197,39 @@ Java(Spring Boot, MyBatis), AWS, TypeScript(Ionic)
 
 ### 진코퍼레이션
 
-**아모레퍼시픽 오산 물류센터 B2B 관리 시스템 유지보수** (2016.06~2016.07) 2개월
+##### 아모레퍼시픽 오산 물류센터 B2B 관리 시스템 유지보수 (2개월 / 2016.06~2016.07)
+**개발 환경:** PowerBuilder, Oracle
 
-PowerBuilder, Oracle
 * 엑셀파일 업로드 기능 구현, 데이터 운송장 출력 기능 구현
 
-**아모레퍼시픽 김천 물류센터 B2C 검품 시스템 개발** (2015.12~2016.05) 6개월
+##### 아모레퍼시픽 김천 물류센터 B2C 검품 시스템 개발 (6개월 / 2015.12~2016.05)
+**개발 환경:** VB6, Oracle, MS Access
 
-VB6, Oracle, MS Access
 * RS232, RS485 시리얼 통신으로 저울, 스캐너, 프린터 등 장비 통신 기능 구현
 * 피킹 제품 일치 여부 확인, 배송 정보 조회, 운송장 출력 등 기능 구현
 * 개발한 검품 프로그램을 현장 PC에 설치, 환경 설정을 위해 고스트를 활용해 약 50대 PC의 세팅 시간 단축  
   (PC 1 대당 약 30분 이상 소요되던 것을 약 15분 이하로 개선)
 
-**아모레퍼시픽 오산 물류센터 PCS(Picking Cart System) 유지보수** (2015.08~2015.11) 4개월
+##### 아모레퍼시픽 오산 물류센터 PCS(Picking Cart System) 유지보수 (4개월 / 2015.08~2015.11)
+**개발 환경:** VB6, Oracle, MS Access
 
-VB6, Oracle, MS Access
 * 피킹 프로세스 변경과 운송장, 주문 내역서 등 출력 데이터 포맷 변경
 * 제품과 랙 위치 등 화면 레이아웃 변경
 
-**아모레퍼시픽 TMS(Transport Management System) 배송 앱 메시지 전송 기능 유지보수** (2015.07~2015.07) 1개월
+##### 아모레퍼시픽 TMS(Transport Management System) 배송 앱 메시지 전송 기능 유지보수 (1개월 / 2015.07~2015.07)
+**개발 환경:** Java(Android)
 
-Java(Android)
 * 앱 문자 송신 기능 버그 수정, 메시지 내용 변경
 
-**아모레퍼시픽 미국 물류센터 B2B 검품, PCS(Picking Cart System) 개발** (2015.03~2016.06) 4개월
+##### 아모레퍼시픽 미국 물류센터 B2B 검품, PCS(Picking Cart System) 개발 (4개월 / 2015.03~2016.06)
+**개발 환경:** C#, Oracle, MS Access
 
-C#, Oracle, MS Access
 * 검품 프로그램의 피킹 제품 일치 여부 확인, 배송 정보 조회, 운송장 출력 등 기능 구현
 * PCS의 제품 조회, 피킹 처리 기능 수정
 
-**아모레퍼시픽 BMS(Buy-Move-Sell) 자재 입출고 관리 시스템 유지보수** (2015.02~2015.02) 1개월
+##### 아모레퍼시픽 BMS(Buy-Move-Sell) 자재 입출고 관리 시스템 유지보수 (1개월 / 2015.02~2015.02)
+**개발 환경:** Java(Spring-JSP), Oracle
 
-Java(Spring-JSP), Oracle
 * 자재 조회, 입출고 기능 개발
 
 ---
@@ -235,21 +238,17 @@ Java(Spring-JSP), Oracle
 
 **교육자 양성 과정 2기 / NEXTSTEP (2022.09~2022.10)**
 
-* 자신의 경험을 녹여내어 다른 사람들을 리딩하는 방법 학습
+* 해당 강의를 통해 다른 사람을 교육, 리딩할 때 주입식이 아닌 경험 및 유도 방식으로 리딩하는 것을 습득
 * [코드리뷰 문화 개선 시 경험한 것을 토대로 우아한 테크코스 수강생 대상으로 교육 진행](https://docs.google.com/spreadsheets/d/1ce-XQOICL2OziVucr2dSZazzI3L2cfn8ySdTmpSn1Os/edit#gid=0)
 
 **도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기 (2021.08~2022.01)**
 
-* K8s 아키텍처 및 다양한 구축, 설정을 실습을 통해 학습 진행  
-  에이치디정션의 의료 진료 서비스 운영과 스테이지 서버 구축 시 활용
+* K8s 아키텍처 및 다양한 구축, 설정을 실습을 통한 학습으로 에이치디정션의 의료 진료 서비스 운영과 스테이지 서버 구축 시 활용
 
 **우아한테크캠프 Pro 1기 / NEXTSTEP & 우아한형제들 (2020.12~2021.01)**
 
-* TDD(Test Driven Development), ATDD(Acceptance TDD), JPA, 레거시 리팩터링 방법을 학습  
-  에이치디정션에서 개발, 코드 리뷰 시 활용
+* TDD(Test Driven Development), ATDD(Acceptance TDD), JPA, 레거시 리팩터링 방법을 하여 에이치디정션에서 개발, 코드 리뷰 시 활용
 * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
-
----
 
 ## License
 
