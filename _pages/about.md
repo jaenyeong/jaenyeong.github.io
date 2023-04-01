@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-03-16
+date: 2023-04-01
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -25,7 +25,7 @@ toc_sticky: true
 
 ## Career
 
-### 에이치디정션 (2021.07~2022.12) 백엔드/SRE팀 - 백엔드 개발, DevOps
+### 에이치디정션 (2021.07~2022.12) 백엔드팀 - 백엔드 개발, DevOps
 헬스케어 소프트웨어를 개발하는 스타트업의 의료 진료 서비스를 개발하며 운영에 필요한 인프라 관리와 기술 영역의 장애 대응을 수행했습니다. 또한 코드 리뷰 리딩과 사내 스터디를 리딩하면서 개발 문화 개선에 기여했습니다.
 * Kotlin(Spring, JPA), MySQL, K8s, Kakfa(K8s Strimzi), NCP, Jenkins, ArgoCD, Git(Github)
 
@@ -90,7 +90,7 @@ toc_sticky: true
 
 * HL7 FHIR 문서와 HAPI FHIR 프레임워크를 활용해 의료 데이터를 FHIR 포맷으로 변환하는 로직 구현  
   네이버와 협의를 통해 데이터명, 타입 등을 최대한 FHIR 규정에 맞춰 변경
-* 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 데이터 암복호화 인터셉터 구현
+* 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 AES-GCM(Advanced Encryption Standard Galois/Counter Mode) 데이터 암복호화 인터셉터 구현
 * 기존 의료 데이터를 FHIR 포맷으로 변환, 네이버 FHIR 서버로 일괄 전송하는 기능 구현  
   전송 데이터(약 1만건)의 변환 처리로(약 50초) 발생하는 DB 커넥션 타임아웃(30초)을 코틀린 컬렉션의 parallel(CommonThreadPool)과 스프링 @Async를 활용해 처리(약 10초)
 * 변환 로직과 전송 기능을 테스트 하기 위한 FHIR 테스트 서버를 도커 컨테이너로 구축
