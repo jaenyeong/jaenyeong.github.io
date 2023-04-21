@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-04-01
+date: 2023-04-21
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -72,7 +72,7 @@ toc_sticky: true
 * Jenkins와 ArgoCD로 서비스 모듈들의 CI/CD 설정
 * K8s의 버전을 운영 환경과 버전을 맞추기 위해 버전 업그레이드 수행 (1.17 > 1.18)
 
-##### 실시간으로 FHIR 포맷 의료 데이터를 네이버 서버로 연동하는 서비스 구축 (6개월 / 2022.05~2022.10)
+##### FHIR 포맷 의료 데이터를 네이버 서버로 실시간 연동하는 서비스 구축 (6개월 / 2022.05~2022.10)
 **설명:** 네이버에서 헬스케어 사업의 활용할 목적으로 필요한 FHIR(Fast Healthcare Interoperability Resource - 의료 데이터 국제 기술 표준) 포맷 의료 데이터를 네이버 FHIR 서버로 전송하는 ETL(Extract-Transform-Load) 구축  
 **개발 환경:** Kotlin(Spring Boot, JPA), Kafka(K8s Strimzi)
 
@@ -90,7 +90,8 @@ toc_sticky: true
 
 * HL7 FHIR 문서와 HAPI FHIR 프레임워크를 활용해 의료 데이터를 FHIR 포맷으로 변환하는 로직 구현  
   네이버와 협의를 통해 데이터명, 타입 등을 최대한 FHIR 규정에 맞춰 변경
-* 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 AES-GCM(Advanced Encryption Standard Galois/Counter Mode) 데이터 암복호화 인터셉터 구현
+* 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 데이터 암복호화 인터셉터 구현  
+  AES-GCM(Advanced Encryption Standard Galois/Counter Mode) 사용
 * 기존 의료 데이터를 FHIR 포맷으로 변환, 네이버 FHIR 서버로 일괄 전송하는 기능 구현  
   전송 데이터(약 1만건)의 변환 처리로(약 50초) 발생하는 DB 커넥션 타임아웃(30초)을 코틀린 컬렉션의 parallel(CommonThreadPool)과 스프링 @Async를 활용해 처리(약 10초)
 * 변환 로직과 전송 기능을 테스트 하기 위한 FHIR 테스트 서버를 도커 컨테이너로 구축
@@ -185,7 +186,7 @@ toc_sticky: true
 * Ionic 프레임워크를 활용해서 하이브리드 앱 개발, 화면 레이아웃 렌더링 구현  
   네이티브 앱 개발자의 부재로 하이브리드 앱으로 개발
 * 채널, 시청 기록, 구독, 코멘트 등 기능 CRUD API 개발
-* 운영 API 서버를 AWS의 3Tier(ELB-EC2-RDS) 형태로 구축하여 서비스 실시
+* 운영 API 서버를 AWS의 3Tier(ELB-EC2-RDS) 형태로 구축하여 서비스 론칭
 * ehCache(캐시 라이브러리)를 사용하여 영상 데이터 캐싱 처리를 통해 Vimeo(동영상 파일 서버) API 호출 제한 횟수 초과 장애 처리
 
 > **Contribute**  
