@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-04-21
+date: 2023-06-17
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -11,9 +11,11 @@ toc_sticky: true
 ---
 
 ## Introduce
-* **Email** : jaenyeong.dev@gmail.com
-* **Github** : https://github.com/jaenyeong
-* 코틀린과 스프링을 주력으로 개발해온 6년 차 백엔드 개발자 김재녕입니다. 물류, 광고, 의료 등 다양한 도메인을 접하며 다양한 개발 환경에서의 경험을 기반으로 새로운 환경 적응에 능한 편입니다. 또한 배우는 것을 좋아하여 다양한 [강의](https://jaenyeong.github.io/learns/)를 꾸준히 수강하는 편이며 개발 문화를 개선하는 것을 좋아하여 코드 리뷰와 사내 스터디를 리딩한 경험이 있습니다.
+**Email** : jaenyeong.dev@gmail.com
+
+**Github** : https://github.com/jaenyeong
+
+코틀린과 스프링을 주력으로 개발해온 6년 차 백엔드 개발자 김재녕입니다. 물류, 광고, 의료 등 다양한 도메인을 접하며 다양한 개발 환경에서의 경험을 기반으로 새로운 환경 적응에 능한 편입니다. 개인의 성장을 위해 새로운 경험을 시도하는 편이며 이를 위해 Java의 JVM 메모리구조, 스레드 동기화 등을 주제로 강의를 진행한 적이 있습니다. 또한 배우는 것을 좋아하여 다양한 강의를 꾸준히 수강하여 업무에 도입하려 힘쓰고 있으며, 개발 문화를 개선하는 것을 좋아하여 코드 리뷰와 팀내 스터디를 리딩한 경험이 있습니다.
 
 ## Skill
 
@@ -44,10 +46,6 @@ toc_sticky: true
 ### 진코퍼레이션 (2015.02~2016.07) SCM 솔루션팀 - 윈도우 앱 개발
 물류, 풀필먼트를 위한 SCM 서비스 기업의 SCM 솔루션 팀에서 제품 피킹, 검품 서비스의 윈도우 앱 개발과 유지보수를 수행했습니다.
 * VB6, C#, PowerBuilder, Java(Spring-JSP), Oracle, MS Access
-
-## Education
-* [2020.03 ~ 2020.08] 국가평생진흥교육원 컴퓨터 공학과
-* [2009.03 ~ 2015.02] 인하공업전문대학 컴퓨터 정보과
 
 ## Experience
 
@@ -233,7 +231,15 @@ toc_sticky: true
 
 * 자재 조회, 입출고 기능 개발
 
+## Activity
+
+##### 원티드 프리온보딩 백엔드 챌린지 6월 과정 Java 강의 진행 (2023.06)
+* 개인의 성장을 목적으로 Java의 JVM 메모리구조, GC, 스레드 동기화 등을 주제로 강의 진행
+* [원티드 프리온보딩 백엔드 챌린지 6월](https://github.com/jaenyeong/Teach_Wanted-PreOnBoarding-Backend-Challenge)
+
+
 ## Learn
+[수강한 강의 전체 보기](https://jaenyeong.github.io/learns/)
 
 ##### 교육자 양성 과정 2기 / NEXTSTEP (2022.09~2022.10)
 
@@ -248,6 +254,10 @@ toc_sticky: true
 
 * TDD(Test Driven Development), ATDD(Acceptance TDD), JPA, 레거시 리팩터링 방법을 하여 에이치디정션에서 개발, 코드 리뷰 시 활용
 * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
+
+## Education
+* [2020.03 ~ 2020.08] 국가평생진흥교육원 컴퓨터 공학과
+* [2009.03 ~ 2015.02] 인하공업전문대학 컴퓨터 정보과
 
 ## License
 
