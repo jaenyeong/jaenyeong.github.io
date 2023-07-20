@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-06-30
+date: 2023-07-20
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -96,7 +96,7 @@ toc_sticky: true
 * 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 데이터 암복호화 인터셉터 구현  
   AES-GCM(Advanced Encryption Standard Galois/Counter Mode) 사용
 * 기존 의료 데이터 약 1만 건을 FHIR 포맷으로 변환, 네이버 FHIR 서버로 일괄 전송하는 기능 구현  
-  전송 데이터의 조회/변환 시(약 50초 소요) 발생하는 DB 커넥션 타임아웃(30초)을 코틀린 컬렉션의 parallel(CommonThreadPool)과 스프링 @Async를 활용해 처리(약 10초)
+  전송 데이터의 조회/변환 시(약 50초 소요) 발생하는 DB READ Timeout(30초)을 코틀린 컬렉션의 parallel(CommonThreadPool)과 스프링 @Async를 활용해 처리(약 10초)
 * 변환 로직과 전송 기능을 테스트 하기 위한 FHIR 테스트 서버를 도커 컨테이너로 온프레미스에 구축
 
 ##### 의료 진료 서비스의 타이머 측정과 진단과 처방 코드 묶음 지원 등 기능 구현 (3개월 / 2021.07~2021.09)
