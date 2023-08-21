@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-07-20
+date: 2023-08-21
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -112,7 +112,7 @@ toc_sticky: true
 
 > **Contribute**  
 > 신규 입사자 대상으로 Git(사내 브랜치 전략 등) 온보딩 진행  
-> 코드 리뷰를 리딩하며 팀원들의 코드 리뷰 참여드를 높이는데 기여  
+> 코드 리뷰를 리딩하며 팀원들의 코드 리뷰 참여도를 높이는데 기여  
 > OOP, 클린코드 등과 효율적인 테스트 케이스 작성 권장  
 > 팀원들의 실력 상향 평준화를 위해 코틀린, OOP 등 스터디 진행
 
