@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-date: 2023-08-21
+date: 2025-06-08
 title: "백엔드 개발자 김재녕"
 description: "About Me Engineer Programmer Developer Resume CV Curriculum Vitae Skill Project Experience 엔지니어 개발자 이력서"
 subject: blog
@@ -11,29 +11,30 @@ toc_sticky: true
 ---
 
 ## Introduce
-**Email** : jaenyeong.dev@gmail.com  
+**Email** : <jaenyeong.dev@gmail.com>  
 **Github** : https://github.com/jaenyeong
 
-코틀린과 스프링을 주력으로 개발하는 6년 차 백엔드 개발자 김재녕입니다.  
-스타트업에서의 경험을 통해 설계부터 배포 자동화까지 직접 수행하며 경험을 쌓았습니다.
+여러 스타트업에서 설계부터 개발, 배포 자동화까지 직접 수행하며 경험을 쌓아온 7년 차 현실주의자 개발자입니다.  
+기술적 성장에 관심이 많아 강의, 스터디를 업무에 활용, 응용하려 노력하고 있습니다.  
 
-다양한 기술에 대한 관심이 많아 강의를 꾸준히 수강하며 업무에 활용하려 노력하고 있습니다.  
-함께 성장하는 것을 좋아하여 주니어 개발자를 대상으로 Java 강의를 진행하며 이력서 피드백과 멘토링을 진행했습니다.  
-개발 문화 개선에도 관심이 많아 코드 리뷰와 팀 내 스터디를 리딩한 경험이 있습니다.
-
----
+함께 성장하는 것을 좋아하여 주니어 개발자를 대상으로 Java 강의를 진행하며 이력서 피드백과 멘토링을 진행한 이력이 있고,  
+개발 문화에 관심이 많아 코드 리뷰와 팀 내 스터디를 리딩한 경험이 있습니다.
 
 ## Skill
 
 * **Language** : Kotlin, Java
-* **Framework** : Spring Boot, JPA, JUnit
+* **Framework** : Spring Boot, Exposed(JPA), Kotest(JUnit)
 * **Database** : MySQL
 * **Cloud** : AWS (EC2, ALB, RDS-Aurora, S3)
-* **ETC** : K8s, Jenkins, Argo CD, Git, Jira, Slack
-
----
+* **ETC** : K8s, Kafka, Jenkins, Argo CD, Git, Jira, Slack
 
 ## Career
+
+### 에어프레미아랩스 (2024.05~현재) 플랫폼 스쿼드 - 백엔드 개발
+항공 도메인 기업의 서비스를 개발하며, 플랫폼 관련 업무와 일부 기능을 개발했습니다.
+
+### 엔비티 (2024.01~2024.04) G파티 - 백엔드 개발
+리워드 서비스인 캐시 슬라이드의 API 서버 구축 및 멀티모듈 구성, 기능 개발과 CI/CD 파이프라인을 구성하였습니다.
 
 ### 에이치디정션 (2021.07~2022.12) 백엔드팀 - 백엔드 개발(DevOps)
 헬스케어 소프트웨어를 개발하는 스타트업의 의료 진료 서비스를 개발하며 운영에 필요한 인프라 관리와 기술 영역의 업무를 수행했습니다.  
@@ -58,10 +59,56 @@ toc_sticky: true
 
 ## Experience
 
+### 에어프레미아랩스
+
+##### 레거시 레디스를 발키로 마이그레이션 전환 작업 (2개월 / 2025.03~2025.05)
+**설명:** 기존 스탠드얼론 레디스를 안정성, 확장성을 위해 새로 구축하여 전환  
+**개발 환경:** AWS Elasticache(Redis OSS, Valkey), Kotlin(Spring Boot, Exposed)
+
+* 많은 모듈, 서비스에서 참조하게 되어 클러스터모드(CME)로 구축  
+  엘라스틱캐시는 중간에 CME로 변경할 수 없어 새로 구축하며 라이센스 등의 문제로 발키로 진행
+* 레투스 클러스터모드 커넥션 설정  
+  스프링 데이터 레디스 및 스프링 세션을 사용함에 따라 발키 클라이언트로 레투스를 사용
+* 세션 마이그레이션 API 구현
+
+##### 플랫폼 스쿼드 업무 및 다른 스쿼드 지원 (2024.05~현재)
+**개발 환경:** Kotlin(Spring Boot, Exposed), AWS(RDS-Aurora, Elasticache, S3), K8s, CloudFlare
+
+* 레거시 공지사항 API를 신규 개발하며 프로젝트 전체에서 사용할 Exposed의 Page 데이터 스펙(응답) 정의  
+  범용적으로 사용할 수 있게 공통 페이징 쿼리 구현
+* 부스팅 이벤트를 통해 서버 확장 시 파드 수 조정 및 모니터링 진행  
+  모니터링 시 필요한 데이터독 대시보드 생성
+* 탑승객 설문조사 발송 메시지 배치 구현  
+  탑승객이 메시지 수신에 대해 부정적인 경험을 주지 않기 위해 편도, 왕복을 확인하여 도착지역의 명일 오후 12시를 기준으로 발송
+* 앱 개발 관련 플랫폼 설정 및 API 개발 지원
+
+> **Contribute**  
+> 백엔드 리드 부재 이후 위클리 리딩  
+> 1인 플랫폼 스쿼드로 데브옵스, 인프라 엔지니어와 협업하며 CSP, K8s 관련 업무 진행  
+> 다른 스쿼드에 해당하지 않는 도메인 영역에 대한 업무 개발  
+> 회원 도메인 영역 CS 대응
+
+---
+
+### 엔비티
+
+##### 리워드 광고 서비스의 신규 기능 서버 구축 및 개발 (4개월 / 2024.01~2024.04)
+**설명:** 캐시슬라이드와 다른 리워드 광고 서비스에서 함께 사용할 API 서버 신규 구축(레거시 대체)  
+**개발 환경:** Kotlin(Spring Boot, JPA), GCP
+
+* 멀티 모듈 구성과 스프링부트 설정, 젠킨스 CI/CD 파이프라인 구성 등 기능 개발을 위한 진행
+* 테스트 코드 작성을 위해 필요한 테스트 더블 설계와 테스트 컨테이너 등 설정
+
+> **Contribute**  
+> CSP, CI/CD 경험이 적은 팀원들을 대신하여 프로젝트 설정과 아키텍처, 인프라 관련 작업을 진행  
+> 멀티 모듈과 테스트 코드에 대한 리딩 진행  
+
+---
+
 ### 에이치디정션
 
 ##### 의료 진료 서비스 API 서버의 트래픽 부하 증가 시 서버의 내결함성 개선 (1개월 / 2022.12~2022.12)
-**개발 환경:** Kotlin(Spring Boot, JPA), K8s(Docker)
+**개발 환경:** Kotlin(Spring Boot, JPA), K8s
 
 * API 호출 트래픽 증가 시 API 서버의 K8s 파드 OOMKilled(137) 에러로 발생한 파드 다운 장애 개선  
   스프링 서버의 메모리 max 설정값이 K8s 파드의 메모리 limit 설정값보다 높아 발생
@@ -70,7 +117,7 @@ toc_sticky: true
 
 ##### 의료 진료 서비스 API 서버의 배포 테스트용 스테이지 서버 구축 (1개월 / 2022.11~2022.11)
 **설명:** 변경된 DB 스키마의 무결성 검증과 QA 등 운영 테스트를 목적으로 운영 환경과 유사하게 구축  
-**개발 환경:** Kotlin(Spring Boot, JPA), K8s(Docker), Jenkins, ArgoCD, Xen citrix(가상화 솔루션)
+**개발 환경:** Kotlin(Spring Boot, JPA), K8s, Jenkins, ArgoCD, Xen citrix(가상화 솔루션)
 
 * Xen citrix를 사용해 VM 노드 환경(K8s 마스터 노드1대, K8s 워커 노드 3대)을 K8s 최소 환경에 맞게 구축
 * 각 VM 노드의 K8s와 운영에 필요한 서비스 모듈 설정, Jenkins와 ArgoCD를 통한 CI/CD 파이프라인 구축  
@@ -90,7 +137,7 @@ toc_sticky: true
 
 ##### 의료 데이터를 FHIR 포맷으로 변환, 일괄 전송하는 모듈 개발 (6개월 / 2021.10~2022.04)
 **설명:** 자사 서비스에서 생성된 의료 데이터를 헬스케어 사업 전반에 범용적으로 활용하기 위해 개발  
-**개발 환경:** Kotlin(Spring Boot, JPA), K8s(Docker), NCP(Container Registry), Jenkins, ArgoCD
+**개발 환경:** Kotlin(Spring Boot, JPA), K8s, NCP(Container Registry), ArgoCD
 
 * HL7 FHIR 문서와 HAPI FHIR 프레임워크를 활용해 의료 데이터를 FHIR 포맷으로 변환하는 로직 구현  
 * 네이버 FHIR 서버에 데이터 전송 시 보안을 위해 FHIR 프레임워크 계층에 데이터 암복호화 인터셉터 구현  
@@ -122,7 +169,7 @@ toc_sticky: true
 
 ##### 인테리어 가구 판매 서비스를 개발, 인프라 구축 (5개월 / 2019.09~2020.01)
 **설명:** 엔젤 투자를 받기 위한 프로토타입 수준의 서비스 개발  
-**개발 환경:** Java(Spring Boot, MyBatis), AWS, Git(Bitbucket)
+**개발 환경:** Java(Spring Boot, MyBatis), AWS
 
 * 결제 서비스인 Bootpay의 API를 활용하여 결제와 검증, 취소 API 구현
 * FireStore(구글 실시간 DB)에 채팅 데이터 삽입 기능 구현  
@@ -167,7 +214,7 @@ toc_sticky: true
 
 ##### 일반 웹 페이지를 AMP(Accelerated Mobile Pages)로 변환하는 서비스 개발, 유지보수 (5개월 / 2018.09 ~ 2019.01)
 **설명:** 더욱 빠른 AMP 페이지로 고객들의 이탈 방지를 위한 서비스  
-**개발 환경:** Java(MyBatis), Jsoup(크롤링 라이브러리), AWS(RDS-Aurora), Git(Bitbucket)
+**개발 환경:** Java(MyBatis), Jsoup(크롤링 라이브러리), AWS(RDS-Aurora)
 
 * Jsoup를 사용하여 대중매체가 제공하는 RSS(Rich Site Summary)를 AMP 데이터로 변환하는 크롤링 모듈 개발, 크론탭으로 반복 실행 처리
 * AMP 변환 모듈을 Jenkins(execute shell)와 Bitbucket(web hook)을 사용하여 CI/CD 설정
@@ -224,17 +271,18 @@ VB6, PowerBuilder, Oracle, MS Access
 
 ##### 원티드 프리온보딩 백엔드 챌린지 6월 과정 Java 강의 진행 (2023.06)
 * 함께 성장하기 위한 목적으로 진행하였으며 JVM 메모리구조, GC, 스레드 동기화 등을 주제로 진행
-* [원티드 프리온보딩 백엔드 챌린지 6월](https://github.com/jaenyeong/Teach_Wanted-PreOnBoarding-Backend-Challenge)
+* [원티드 프리온보딩 백엔드 챌린지 6월](https://www.wanted.co.kr/events/pre_challenge_be_8)
+* [강의 자료](https://github.com/jaenyeong/Teach_Wanted-PreOnBoarding-Backend-Challenge)
 
 ---
 
 ## Learn
-[수강한 강의 전체 보기](https://jaenyeong.github.io/learns/)
+[수강 내역 전체 정리](https://jaenyeong.github.io/learns/)
 
 ##### 교육자 양성 과정 2기 / NEXTSTEP (2022.09~2022.10)
 
-* 해당 강의를 통해 다른 팀원들에게 주입식이 아닌 간접 경험 및 스스로 사고하는 방식으로 리딩하는 방법 학습
-* [코드리뷰 문화 개선 시 경험한 것을 토대로 우아한 테크코스 수강생 대상으로 교육 진행](https://docs.google.com/spreadsheets/d/1ce-XQOICL2OziVucr2dSZazzI3L2cfn8ySdTmpSn1Os/edit#gid=0)
+* 이를 통해 동료에게 주입식 교육이 아닌 스스로 사고할 수 있도록 리딩하는 방법 학습
+* [우아한 테크코스 수강생에게 코드리뷰 문화 개선 주제로 강의](https://docs.google.com/spreadsheets/d/1ce-XQOICL2OziVucr2dSZazzI3L2cfn8ySdTmpSn1Os/edit#gid=0)
 
 ##### 도커/쿠버네티스 온라인 부트캠프 with 카카오엔터프라이즈 1기 (2021.08~2022.01)
 
