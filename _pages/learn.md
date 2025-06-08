@@ -1,8 +1,8 @@
 ---
 layout: single
 permalink: /learns/
-date: 2022-11-22
-title: "수강한 모든 교육 목록"
+date: 2025-06-09
+title: "수강 내역 정리"
 description: ""
 subject: blog
 toc_label: "All Lectures"
@@ -15,8 +15,9 @@ toc_sticky: true
 ### 교육자 양성 과정 2기
 NEXTSTEP (2022.09 ~ 2022.10)
 
-다른 주입식 교육들과 달리 경험 위주의 교육 방법 학습
-* 우아한 테크코스 수강생들 대상으로 테스트하기 쉬운 코드, 코드 리뷰 문화 개선을 직접 교육 진행
+단순 주입식 교육이 아닌 경험과 실습 위주의 교육 방법 학습
+* 우아한 테크코스 수강생들 대상으로 테스트하기 쉬운 코드 작성법, 코드 리뷰 문화 개선을 직접 교육 진행
+  * [코드리뷰 문화 개선 교육 진행](https://docs.google.com/spreadsheets/d/1ce-XQOICL2OziVucr2dSZazzI3L2cfn8ySdTmpSn1Os/edit#gid=0)
 
 ---
 
@@ -50,9 +51,11 @@ NEXTSTEP & 우아한형제들 (2020.12 ~ 2021.01)
 
 * 수강생(지원자 약 200명 중 약 40명 선발) 중 우수 수료생(20명)으로 최종 수료
 * TDD, JPA, ATDD(Acceptance Test Driven Development), 레거시 리팩터링 학습
-  * [Racing Car](https://github.com/jaenyeong/java-racingcar), [Lotto](https://github.com/jaenyeong/java-lotto)
+  * [Racing Car](https://github.com/jaenyeong/java-racingcar)
+  * [Lotto](https://github.com/jaenyeong/java-lotto)
   * [JWP-JPA](https://github.com/jaenyeong/jwp-jpa)
-  * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin), [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
+  * [ATDD-Subway-admin](https://github.com/jaenyeong/atdd-subway-admin)
+  * [ATDD-Subway-service](https://github.com/jaenyeong/atdd-subway-service)
   * [JWP-Refactoring](https://github.com/jaenyeong/jwp-refactoring)
 
 ---
@@ -118,4 +121,4 @@ Fastcampus (2018.07 ~ 2018.08)
 ### Java & DB 개발자 과정 교육
 비트교육센터 (2016.10 ~ 2017.03)
 
-Java, Spring, MyBatis를 활용한 웹 서비스 구축 및 개발 방법 학습
+백엔드 개발로 포지션을 전향하기 위해 수강하여 Java, Spring, MyBatis를 활용한 웹 서비스 구축 및 개발 방법 학습
